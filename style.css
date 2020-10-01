@@ -1,0 +1,12 @@
+h2 {
+    font-weight: bold;
+    font-size: 75px;
+    color: darkblue;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: darkblue;
+    color: white;
+
+}
