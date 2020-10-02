@@ -1,0 +1,29 @@
+-HUMAN TRAFFICKING PROJECT PROCESS-
+- Heat Map of States w/ Trafficking
+- Facts & Figures Page to begin Presentation site
+- Per Year Data load
+- Create Options for loading plots i.e [Age (Minor vs. Adult)], [Type of Assault?], [Year of Assault(s)], [Relation to Victim], [Gender ( Male vs. Female)], [Method of Exploitation]
+- Year vs Assault
+- Gender vs Assault Count (Categ. Axes Chart)
+- Assault w/ Year w/ Age Group or Relationship ( Bubble Chart)
+
+
+Chika
+- Bubble/Etc Plotting
+- Fact Bringing
+- 
+
+Sofia 
+- Donut Charts
+- HTML Elements
+- Front end Presentation Page
+- Collecting Data & Facts
+
+Kelsey
+- Cool Heat Map
+- HTML Help
+
+Katherine
+- Charts/Plots
+- Looking into/over Flask w/ MongoDB
+
