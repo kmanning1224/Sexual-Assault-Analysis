@@ -1,0 +1,213 @@
+year,region_description,state,occurrence,latitude,longitude
+2014,Gulf Coast East,Alabama,0,32.377716,-86.300568
+2014,Southwest/Pacific,Alaska,22,58.301598,-134.420212
+2014,Southwest/Pacific,Arizona,30,33.448143,-112.096962
+2014,Plains,Arkansas,0,34.746613,-92.288986
+2014,Southwest/Pacific,California,0,38.576668,-121.493629
+2014,Rockies/Mid-West,Colorado,26,39.739227,-104.984856
+2014,Mideast North,Connecticut,0,41.764046,-72.682198
+2014,Mideast South,Delaware,0,39.157307,-75.519722
+2014,Gulf Coast East,Florida,120,30.438118,-84.281296
+2014,Gulf Coast East,Georgia,0,33.749027,-84.388229
+2014,Southwest/Pacific,Guam,0,13.444304,144.793732
+2014,Southwest/Pacific,Hawaii,0,21.307442,-157.857376
+2014,Northeast,Idaho,0,43.617775,-116.199722
+2014,North Central,Illinois,134,39.798363,-89.654961
+2014,North Central,Indiana,0,39.768623,-86.162643
+2014,North Central,Iowa,0,41.591087,-93.603729
+2014,Rockies/Mid-West,Kansas,2,39.048191,-95.677956
+2014,Central,Kentucky,0,38.186722,-84.875374
+2014,Gulf Coast West,Louisiana,0,30.457069,-91.187393
+2014,New England,Maine,0,44.307167,-69.781693
+2014,Mid-Atlantic,Maryland,0,38.978764,-76.490936
+2014,New England,Massachusetts,14,42.358162,-71.063698
+2014,Central,Michigan,6,42.733635,-84.555328
+2014,North Central,Minnesota,46,44.955097,-93.102211
+2014,Gulf Coast East,Mississippi,0,32.303848,-90.182106
+2014,Plains,Missouri,12,38.579201,-92.172935
+2014,Northeast,Montana,2,46.585709,-112.018417
+2014,Plains,Nebraska,0,40.808075,-96.699654
+2014,Southwest/Pacific,Nevada,0,39.163914,-119.766121
+2014,New England,New Hampshire,0,43.206898,-71.537994
+2014,Mideast North,New Jersey,0,40.220596,-74.769913
+2014,Rockies/Mid-West,New Mexico,0,35.68224,-105.939728
+2014,Mideast North,New York,0,42.652843,-73.757874
+2014,Mid-Atlantic,North Carolina,0,35.78043,-78.639099
+2014,Plains,North Dakota,0,46.82085,-100.783318
+2014,Central,Ohio,0,39.961346,-82.999069
+2014,Rockies/Mid-West,Oklahoma,20,35.492207,-97.503342
+2014,Northeast,Oregon,0,44.938461,-123.030403
+2014,New England,Pennsylvania,0,40.264378,-76.883598
+2014,Gulf Coast East,Puerto Rico,0,18.200178,-66.664513
+2014,New England,Rhode Island,0,41.830914,-71.414963
+2014,Mid-Atlantic,South Carolina,0,34.000343,-81.033211
+2014,Plains,South Dakota,0,44.367031,-100.346405
+2014,Central,Tennessee,60,36.16581,-86.784241
+2014,Gulf Coast West,Texas,382,30.27467,-97.740349
+2014,Gulf Coast East,U.S. Virgin Islands,0,18.343441,-64.867163
+2014,Rockies/Mid-West,Utah,0,40.777477,-111.888237
+2014,Mideast North,Vermont,0,44.262436,-72.580536
+2014,Mid-Atlantic,Virginia,0,37.538857,-77.43364
+2014,Northeast,Washington,4,47.035805,-122.905014
+2014,Mideast North,West Virginia,0,38.336246,-81.612328
+2014,North Central,Wisconsin,0,43.074684,-89.384445
+2014,Rockies/Mid-West,Wyoming,2,41.140259,-104.820236
+2015,Gulf Coast East,Alabama,0,32.377716,-86.300568
+2015,Southwest/Pacific,Alaska,10,58.301598,-134.420212
+2015,Southwest/Pacific,Arizona,12,33.448143,-112.096962
+2015,Plains,Arkansas,10,34.746613,-92.288986
+2015,Southwest/Pacific,California,0,38.576668,-121.493629
+2015,Rockies/Mid-West,Colorado,34,39.739227,-104.984856
+2015,Mideast North,Connecticut,0,41.764046,-72.682198
+2015,Mideast South,Delaware,0,39.157307,-75.519722
+2015,Gulf Coast East,Florida,92,30.438118,-84.281296
+2015,Gulf Coast East,Georgia,0,33.749027,-84.388229
+2015,Southwest/Pacific,Guam,0,13.444304,144.793732
+2015,Southwest/Pacific,Hawaii,6,21.307442,-157.857376
+2015,Northeast,Idaho,0,43.617775,-116.199722
+2015,North Central,Illinois,122,39.798363,-89.654961
+2015,North Central,Indiana,0,39.768623,-86.162643
+2015,North Central,Iowa,0,41.591087,-93.603729
+2015,Rockies/Mid-West,Kansas,0,39.048191,-95.677956
+2015,Central,Kentucky,0,38.186722,-84.875374
+2015,Gulf Coast West,Louisiana,102,30.457069,-91.187393
+2015,New England,Maine,0,44.307167,-69.781693
+2015,Mid-Atlantic,Maryland,56,38.978764,-76.490936
+2015,New England,Massachusetts,4,42.358162,-71.063698
+2015,Central,Michigan,6,42.733635,-84.555328
+2015,North Central,Minnesota,238,44.955097,-93.102211
+2015,Gulf Coast East,Mississippi,0,32.303848,-90.182106
+2015,Plains,Missouri,26,38.579201,-92.172935
+2015,Northeast,Montana,0,46.585709,-112.018417
+2015,Plains,Nebraska,0,40.808075,-96.699654
+2015,Southwest/Pacific,Nevada,432,39.163914,-119.766121
+2015,New England,New Hampshire,0,43.206898,-71.537994
+2015,Mideast North,New Jersey,0,40.220596,-74.769913
+2015,Rockies/Mid-West,New Mexico,0,35.68224,-105.939728
+2015,Mideast North,New York,0,42.652843,-73.757874
+2015,Mid-Atlantic,North Carolina,0,35.78043,-78.639099
+2015,Plains,North Dakota,0,46.82085,-100.783318
+2015,Central,Ohio,6,39.961346,-82.999069
+2015,Rockies/Mid-West,Oklahoma,80,35.492207,-97.503342
+2015,Northeast,Oregon,0,44.938461,-123.030403
+2015,New England,Pennsylvania,0,40.264378,-76.883598
+2015,Gulf Coast East,Puerto Rico,0,18.200178,-66.664513
+2015,New England,Rhode Island,0,41.830914,-71.414963
+2015,Mid-Atlantic,South Carolina,28,34.000343,-81.033211
+2015,Plains,South Dakota,0,44.367031,-100.346405
+2015,Central,Tennessee,70,36.16581,-86.784241
+2015,Gulf Coast West,Texas,570,30.27467,-97.740349
+2015,Gulf Coast East,U.S. Virgin Islands,0,18.343441,-64.867163
+2015,Rockies/Mid-West,Utah,0,40.777477,-111.888237
+2015,Mideast North,Vermont,0,44.262436,-72.580536
+2015,Mid-Atlantic,Virginia,0,37.538857,-77.43364
+2015,Northeast,Washington,2,47.035805,-122.905014
+2015,Mideast North,West Virginia,0,38.336246,-81.612328
+2015,North Central,Wisconsin,8,43.074684,-89.384445
+2015,Rockies/Mid-West,Wyoming,2,41.140259,-104.820236
+2016,Gulf Coast East,Alabama,0,32.377716,-86.300568
+2016,Southwest/Pacific,Alaska,24,58.301598,-134.420212
+2016,Southwest/Pacific,Arizona,38,33.448143,-112.096962
+2016,Plains,Arkansas,12,34.746613,-92.288986
+2016,Southwest/Pacific,California,0,38.576668,-121.493629
+2016,Rockies/Mid-West,Colorado,68,39.739227,-104.984856
+2016,Mideast North,Connecticut,4,41.764046,-72.682198
+2016,Mideast South,Delaware,0,39.157307,-75.519722
+2016,Gulf Coast East,Florida,210,30.438118,-84.281296
+2016,Gulf Coast East,Georgia,0,33.749027,-84.388229
+2016,Southwest/Pacific,Guam,0,13.444304,144.793732
+2016,Southwest/Pacific,Hawaii,4,21.307442,-157.857376
+2016,Northeast,Idaho,0,43.617775,-116.199722
+2016,North Central,Illinois,48,39.798363,-89.654961
+2016,North Central,Indiana,8,39.768623,-86.162643
+2016,North Central,Iowa,0,41.591087,-93.603729
+2016,Rockies/Mid-West,Kansas,4,39.048191,-95.677956
+2016,Central,Kentucky,0,38.186722,-84.875374
+2016,Gulf Coast West,Louisiana,246,30.457069,-91.187393
+2016,New England,Maine,0,44.307167,-69.781693
+2016,Mid-Atlantic,Maryland,34,38.978764,-76.490936
+2016,New England,Massachusetts,6,42.358162,-71.063698
+2016,Central,Michigan,6,42.733635,-84.555328
+2016,North Central,Minnesota,470,44.955097,-93.102211
+2016,Gulf Coast East,Mississippi,0,32.303848,-90.182106
+2016,Plains,Missouri,32,38.579201,-92.172935
+2016,Northeast,Montana,2,46.585709,-112.018417
+2016,Plains,Nebraska,0,40.808075,-96.699654
+2016,Southwest/Pacific,Nevada,280,39.163914,-119.766121
+2016,New England,New Hampshire,0,43.206898,-71.537994
+2016,Mideast North,New Jersey,0,40.220596,-74.769913
+2016,Rockies/Mid-West,New Mexico,0,35.68224,-105.939728
+2016,Mideast North,New York,0,42.652843,-73.757874
+2016,Mid-Atlantic,North Carolina,0,35.78043,-78.639099
+2016,Plains,North Dakota,10,46.82085,-100.783318
+2016,Central,Ohio,2,39.961346,-82.999069
+2016,Rockies/Mid-West,Oklahoma,92,35.492207,-97.503342
+2016,Northeast,Oregon,0,44.938461,-123.030403
+2016,New England,Pennsylvania,0,40.264378,-76.883598
+2016,Gulf Coast East,Puerto Rico,0,18.200178,-66.664513
+2016,New England,Rhode Island,12,41.830914,-71.414963
+2016,Mid-Atlantic,South Carolina,44,34.000343,-81.033211
+2016,Plains,South Dakota,0,44.367031,-100.346405
+2016,Central,Tennessee,110,36.16581,-86.784241
+2016,Gulf Coast West,Texas,514,30.27467,-97.740349
+2016,Gulf Coast East,U.S. Virgin Islands,0,18.343441,-64.867163
+2016,Rockies/Mid-West,Utah,0,40.777477,-111.888237
+2016,Mideast North,Vermont,4,44.262436,-72.580536
+2016,Mid-Atlantic,Virginia,0,37.538857,-77.43364
+2016,Northeast,Washington,28,47.035805,-122.905014
+2016,Mideast North,West Virginia,0,38.336246,-81.612328
+2016,North Central,Wisconsin,70,43.074684,-89.384445
+2016,Rockies/Mid-West,Wyoming,10,41.140259,-104.820236
+2017,Gulf Coast East,Alabama,0,32.377716,-86.300568
+2017,Southwest/Pacific,Alaska,6,58.301598,-134.420212
+2017,Southwest/Pacific,Arizona,198,33.448143,-112.096962
+2017,Plains,Arkansas,0,34.746613,-92.288986
+2017,Southwest/Pacific,California,0,38.576668,-121.493629
+2017,Rockies/Mid-West,Colorado,112,39.739227,-104.984856
+2017,Mideast North,Connecticut,16,41.764046,-72.682198
+2017,Mideast South,Delaware,10,39.157307,-75.519722
+2017,Gulf Coast East,Florida,178,30.438118,-84.281296
+2017,Gulf Coast East,Georgia,0,33.749027,-84.388229
+2017,Southwest/Pacific,Guam,0,13.444304,144.793732
+2017,Southwest/Pacific,Hawaii,4,21.307442,-157.857376
+2017,Northeast,Idaho,0,43.617775,-116.199722
+2017,North Central,Illinois,68,39.798363,-89.654961
+2017,North Central,Indiana,6,39.768623,-86.162643
+2017,North Central,Iowa,0,41.591087,-93.603729
+2017,Rockies/Mid-West,Kansas,6,39.048191,-95.677956
+2017,Central,Kentucky,44,38.186722,-84.875374
+2017,Gulf Coast West,Louisiana,122,30.457069,-91.187393
+2017,New England,Maine,4,44.307167,-69.781693
+2017,Mid-Atlantic,Maryland,0,38.978764,-76.490936
+2017,New England,Massachusetts,56,42.358162,-71.063698
+2017,Central,Michigan,44,42.733635,-84.555328
+2017,North Central,Minnesota,346,44.955097,-93.102211
+2017,Gulf Coast East,Mississippi,0,32.303848,-90.182106
+2017,Plains,Missouri,56,38.579201,-92.172935
+2017,Northeast,Montana,4,46.585709,-112.018417
+2017,Plains,Nebraska,0,40.808075,-96.699654
+2017,Southwest/Pacific,Nevada,10,39.163914,-119.766121
+2017,New England,New Hampshire,4,43.206898,-71.537994
+2017,Mideast North,New Jersey,0,40.220596,-74.769913
+2017,Rockies/Mid-West,New Mexico,0,35.68224,-105.939728
+2017,Mideast North,New York,0,42.652843,-73.757874
+2017,Mid-Atlantic,North Carolina,0,35.78043,-78.639099
+2017,Plains,North Dakota,22,46.82085,-100.783318
+2017,Central,Ohio,0,39.961346,-82.999069
+2017,Rockies/Mid-West,Oklahoma,50,35.492207,-97.503342
+2017,Northeast,Oregon,2,44.938461,-123.030403
+2017,New England,Pennsylvania,0,40.264378,-76.883598
+2017,Gulf Coast East,Puerto Rico,0,18.200178,-66.664513
+2017,New England,Rhode Island,26,41.830914,-71.414963
+2017,Mid-Atlantic,South Carolina,60,34.000343,-81.033211
+2017,Plains,South Dakota,6,44.367031,-100.346405
+2017,Central,Tennessee,158,36.16581,-86.784241
+2017,Gulf Coast West,Texas,624,30.27467,-97.740349
+2017,Gulf Coast East,U.S. Virgin Islands,0,18.343441,-64.867163
+2017,Rockies/Mid-West,Utah,2,40.777477,-111.888237
+2017,Mideast North,Vermont,0,44.262436,-72.580536
+2017,Mid-Atlantic,Virginia,0,37.538857,-77.43364
+2017,Northeast,Washington,60,47.035805,-122.905014
+2017,Mideast North,West Virginia,0,38.336246,-81.612328
+2017,North Central,Wisconsin,130,43.074684,-89.384445
+2017,Rockies/Mid-West,Wyoming,4,41.140259,-104.820236
