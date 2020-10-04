@@ -1,5 +1,6 @@
 click==7.1.2
 Flask==1.1.2
+pip==18.0.0
 flask-marshmallow==0.14.0
 Flask-SQLAlchemy==2.4.4
 gunicorn==20.0.4
