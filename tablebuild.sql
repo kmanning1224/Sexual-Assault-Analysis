@@ -1,0 +1,23 @@
+CREATE TABLE assault (
+	yearofregistration VARCHAR(30),
+	agerange varchar(30),
+	gender varchar(20),
+	majoritystatusatexploit BIGINT,
+	meansOfControlTakesEarnings BIGINT,
+	meansOfControlThreats BIGINT,
+	meansOfControlPsychologicalAbuse BIGINT,
+	meansOfControlPhysicalAbuse BIGINT,
+	meansOfControlSexualAbuse BIGINT,
+	meansOfControlPsychoactiveSubstances BIGINT,
+	meansOfControlRestrictsMovement BIGINT,
+	meansOfControlUsesChildren BIGINT,
+	meansOfControlThreatOfLawEnforcement BIGINT,
+	isForcedLabour BIGINT,
+	isSexualExploit BIGINT,
+	isOtherExploit BIGINT,
+	isAbduction BIGINT,
+	recruiterRelationIntimatePartner BIGINT,
+	recruiterRelationFriend BIGINT,
+	recruiterRelationFamily BIGINT,
+	recruiterRelationOther BIGINT	
+)

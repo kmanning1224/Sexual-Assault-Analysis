@@ -1,22 +1,20 @@
-import sqlite3
-import sqlalchemy
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
-from sqlalchemy import and_, or_
-from os import environ, path
-
-from flask import Flask, jsonify
+from flask import Flask, Response
+import pandas as pd 
+from sqlalchemy import create_engine
+from config import cxnstring
 app = Flask(__name__)
-Base = automap_base()
-#################################################
-# Database Setup
-#################################################
-engine = create_engine("sqlite:////Users/katma/Documents/GitHub/Trilogoy/Homework/Project-2/templates/trafficking.db")
 
-# reflect an existing database into a new model
+engine = create_engine(cxnstring, pool_recycle=3600)
 
-# reflect the tables
-Base.prepare(engine, reflect=True)
+@app.route("/")
+def index():
+    return "<h1> Deployed </h1>"
 
-Base.classes.keys()
+@app.route("/sqltest")
+def psqltest():
+    response = pd.read_sql("SELECT * FROM assault_table", engine)
+    return Response(response.to_json(orient="records", date_format="iso"), mimetype="application/json")
+
+
+if __name__ == "__main__":
+    app.run(debug=True)

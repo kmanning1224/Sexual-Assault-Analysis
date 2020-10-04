@@ -1,8 +1,9 @@
 import os
-basedir = os.path.abspath(os.path.dirname(__file__))
-
-class Config(object):
-    # ...
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
-        'sqlite:///' + os.path.join(basedir, 'trafficking.db')
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
+dbuser = "postgres"
+dbpw = "postgres"
+dbhost = "localhost"
+dbengine = "postgresql"
+db = "assault_db"
+cxnstring = (os.environ["DATABASE_URL"] if os.getenv("DATABASE_URL")
+else f"{dbengine}://{dbuser}:{dbpw}@{dbhost}/{db}")
+# cxnstring = "sqlite:///assaultdb.sqlite"
