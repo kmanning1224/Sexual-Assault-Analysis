@@ -1,5 +1,5 @@
-﻿yearOfRegistration,agerange,gender,majorityStatusAtExploit,meansOfControlTakesEarnings,meansOfControlThreats,meansOfControlPsychologicalAbuse,meansOfControlPhysicalAbuse,meansOfControlSexualAbuse,meansOfControlPsychoactiveSubstances,meansOfControlRestrictsMovement,meansOfControlUsesChildren,meansOfControlThreatOfLawEnforcement,isForcedLabour,isSexualExploit,isOtherExploit,isAbduction,recruiterRelationIntimatePartner,recruiterRelationFriend,recruiterRelationFamily,recruiterRelationOther
-2015,18-20,Female,-99,2,7,9,8,2,4,12,0,0,0,64,0,0,9,1,2,2
+yearOfRegistration,ageBroad,gender,majorityStatusAtExploit,meansOfControlTakesEarnings,meansOfControlThreats,meansOfControlPsychologicalAbuse,meansOfControlPhysicalAbuse,meansOfControlSexualAbuse,meansOfControlPsychoactiveSubstances,meansOfControlRestrictsMovement,meansOfControlUsesChildren,meansOfControlThreatOfLawEnforcement,isForcedLabour,isSexualExploit,isOtherExploit,isAbduction,recruiterRelationIntimatePartner,recruiterRelationFriend,recruiterRelationFamily,recruiterRelationOther
+2015,18--20,Female,-99,2,7,9,8,2,4,12,0,0,0,64,0,0,9,1,2,2
 2015,18--20,Female,Adult,2,1,3,4,0,3,5,0,0,0,9,0,0,4,1,0,0
 2015,18--20,Female,Minor,10,16,22,24,9,8,20,1,0,0,61,0,0,14,2,11,8
 2015,21--23,Female,-99,9,13,14,16,3,8,17,1,0,0,54,0,0,4,0,2,6
