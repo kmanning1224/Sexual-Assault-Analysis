@@ -6,4 +6,3 @@ class Config:
 
     #sqlite:///trafficking.db
 
-    
