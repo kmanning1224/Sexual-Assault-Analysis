@@ -1,0 +1,2761 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.300568,32.377716 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Gulf Coast East",
+    "state":"Alabama",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -134.420212,58.301598 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Southwest/Pacific",
+    "state":"Alaska",
+    "occurrence":22
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.096962,33.448143 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Southwest/Pacific",
+    "state":"Arizona",
+    "occurrence":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.288986,34.746613 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Plains",
+    "state":"Arkansas",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.493629,38.576668 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Southwest/Pacific",
+    "state":"California",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.984856,39.739227 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Rockies/Mid-West",
+    "state":"Colorado",
+    "occurrence":26
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.682198,41.764046 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mideast North",
+    "state":"Connecticut",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.519722,39.157307 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mideast South",
+    "state":"Delaware",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.281296,30.438118 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Gulf Coast East",
+    "state":"Florida",
+    "occurrence":120
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.388229,33.749027 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Gulf Coast East",
+    "state":"Georgia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.793732,13.444304 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Southwest/Pacific",
+    "state":"Guam",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -157.857376,21.307442 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Southwest/Pacific",
+    "state":"Hawaii",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.199722,43.617775 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Northeast",
+    "state":"Idaho",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.654961,39.798363 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"North Central",
+    "state":"Illinois",
+    "occurrence":134
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.162643,39.768623 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"North Central",
+    "state":"Indiana",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.603729,41.591087 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"North Central",
+    "state":"Iowa",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.677956,39.048191 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Rockies/Mid-West",
+    "state":"Kansas",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.875374,38.186722 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Central",
+    "state":"Kentucky",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.187393,30.457069 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Gulf Coast West",
+    "state":"Louisiana",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.781693,44.307167 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"New England",
+    "state":"Maine",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.490936,38.978764 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mid-Atlantic",
+    "state":"Maryland",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.063698,42.358162 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"New England",
+    "state":"Massachusetts",
+    "occurrence":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.555328,42.733635 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Central",
+    "state":"Michigan",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.102211,44.955097 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"North Central",
+    "state":"Minnesota",
+    "occurrence":46
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.182106,32.303848 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Gulf Coast East",
+    "state":"Mississippi",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.172935,38.579201 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Plains",
+    "state":"Missouri",
+    "occurrence":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.018417,46.585709 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Northeast",
+    "state":"Montana",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.699654,40.808075 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Plains",
+    "state":"Nebraska",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.766121,39.163914 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Southwest/Pacific",
+    "state":"Nevada",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.537994,43.206898 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"New England",
+    "state":"New Hampshire",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.769913,40.220596 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mideast North",
+    "state":"New Jersey",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.939728,35.68224 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Rockies/Mid-West",
+    "state":"New Mexico",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.757874,42.652843 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mideast North",
+    "state":"New York",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.639099,35.78043 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mid-Atlantic",
+    "state":"North Carolina",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.783318,46.82085 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Plains",
+    "state":"North Dakota",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.999069,39.961346 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Central",
+    "state":"Ohio",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.503342,35.492207 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Rockies/Mid-West",
+    "state":"Oklahoma",
+    "occurrence":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.030403,44.938461 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Northeast",
+    "state":"Oregon",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.883598,40.264378 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"New England",
+    "state":"Pennsylvania",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.664513,18.200178 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Gulf Coast East",
+    "state":"Puerto Rico",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.414963,41.830914 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"New England",
+    "state":"Rhode Island",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.033211,34.000343 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mid-Atlantic",
+    "state":"South Carolina",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.346405,44.367031 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Plains",
+    "state":"South Dakota",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.784241,36.16581 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Central",
+    "state":"Tennessee",
+    "occurrence":60
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.740349,30.27467 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Gulf Coast West",
+    "state":"Texas",
+    "occurrence":382
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.867163,18.343441 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Gulf Coast East",
+    "state":"U.S. Virgin Islands",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.888237,40.777477 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Rockies/Mid-West",
+    "state":"Utah",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.580536,44.262436 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mideast North",
+    "state":"Vermont",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.43364,37.538857 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mid-Atlantic",
+    "state":"Virginia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.905014,47.035805 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Northeast",
+    "state":"Washington",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.612328,38.336246 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Mideast North",
+    "state":"West Virginia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.384445,43.074684 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"North Central",
+    "state":"Wisconsin",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.820236,41.140259 ]
+    },
+    "properties": {
+    "year":2014,
+    "region_description":"Rockies/Mid-West",
+    "state":"Wyoming",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.300568,32.377716 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Gulf Coast East",
+    "state":"Alabama",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -134.420212,58.301598 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Southwest/Pacific",
+    "state":"Alaska",
+    "occurrence":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.096962,33.448143 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Southwest/Pacific",
+    "state":"Arizona",
+    "occurrence":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.288986,34.746613 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Plains",
+    "state":"Arkansas",
+    "occurrence":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.493629,38.576668 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Southwest/Pacific",
+    "state":"California",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.984856,39.739227 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Rockies/Mid-West",
+    "state":"Colorado",
+    "occurrence":34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.682198,41.764046 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mideast North",
+    "state":"Connecticut",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.519722,39.157307 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mideast South",
+    "state":"Delaware",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.281296,30.438118 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Gulf Coast East",
+    "state":"Florida",
+    "occurrence":92
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.388229,33.749027 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Gulf Coast East",
+    "state":"Georgia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.793732,13.444304 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Southwest/Pacific",
+    "state":"Guam",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -157.857376,21.307442 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Southwest/Pacific",
+    "state":"Hawaii",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.199722,43.617775 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Northeast",
+    "state":"Idaho",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.654961,39.798363 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"North Central",
+    "state":"Illinois",
+    "occurrence":122
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.162643,39.768623 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"North Central",
+    "state":"Indiana",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.603729,41.591087 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"North Central",
+    "state":"Iowa",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.677956,39.048191 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Rockies/Mid-West",
+    "state":"Kansas",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.875374,38.186722 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Central",
+    "state":"Kentucky",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.187393,30.457069 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Gulf Coast West",
+    "state":"Louisiana",
+    "occurrence":102
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.781693,44.307167 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"New England",
+    "state":"Maine",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.490936,38.978764 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mid-Atlantic",
+    "state":"Maryland",
+    "occurrence":56
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.063698,42.358162 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"New England",
+    "state":"Massachusetts",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.555328,42.733635 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Central",
+    "state":"Michigan",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.102211,44.955097 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"North Central",
+    "state":"Minnesota",
+    "occurrence":238
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.182106,32.303848 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Gulf Coast East",
+    "state":"Mississippi",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.172935,38.579201 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Plains",
+    "state":"Missouri",
+    "occurrence":26
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.018417,46.585709 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Northeast",
+    "state":"Montana",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.699654,40.808075 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Plains",
+    "state":"Nebraska",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.766121,39.163914 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Southwest/Pacific",
+    "state":"Nevada",
+    "occurrence":432
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.537994,43.206898 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"New England",
+    "state":"New Hampshire",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.769913,40.220596 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mideast North",
+    "state":"New Jersey",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.939728,35.68224 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Rockies/Mid-West",
+    "state":"New Mexico",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.757874,42.652843 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mideast North",
+    "state":"New York",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.639099,35.78043 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mid-Atlantic",
+    "state":"North Carolina",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.783318,46.82085 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Plains",
+    "state":"North Dakota",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.999069,39.961346 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Central",
+    "state":"Ohio",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.503342,35.492207 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Rockies/Mid-West",
+    "state":"Oklahoma",
+    "occurrence":80
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.030403,44.938461 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Northeast",
+    "state":"Oregon",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.883598,40.264378 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"New England",
+    "state":"Pennsylvania",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.664513,18.200178 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Gulf Coast East",
+    "state":"Puerto Rico",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.414963,41.830914 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"New England",
+    "state":"Rhode Island",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.033211,34.000343 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mid-Atlantic",
+    "state":"South Carolina",
+    "occurrence":28
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.346405,44.367031 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Plains",
+    "state":"South Dakota",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.784241,36.16581 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Central",
+    "state":"Tennessee",
+    "occurrence":70
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.740349,30.27467 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Gulf Coast West",
+    "state":"Texas",
+    "occurrence":570
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.867163,18.343441 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Gulf Coast East",
+    "state":"U.S. Virgin Islands",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.888237,40.777477 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Rockies/Mid-West",
+    "state":"Utah",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.580536,44.262436 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mideast North",
+    "state":"Vermont",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.43364,37.538857 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mid-Atlantic",
+    "state":"Virginia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.905014,47.035805 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Northeast",
+    "state":"Washington",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.612328,38.336246 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Mideast North",
+    "state":"West Virginia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.384445,43.074684 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"North Central",
+    "state":"Wisconsin",
+    "occurrence":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.820236,41.140259 ]
+    },
+    "properties": {
+    "year":2015,
+    "region_description":"Rockies/Mid-West",
+    "state":"Wyoming",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.300568,32.377716 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Gulf Coast East",
+    "state":"Alabama",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -134.420212,58.301598 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Southwest/Pacific",
+    "state":"Alaska",
+    "occurrence":24
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.096962,33.448143 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Southwest/Pacific",
+    "state":"Arizona",
+    "occurrence":38
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.288986,34.746613 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Plains",
+    "state":"Arkansas",
+    "occurrence":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.493629,38.576668 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Southwest/Pacific",
+    "state":"California",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.984856,39.739227 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Rockies/Mid-West",
+    "state":"Colorado",
+    "occurrence":68
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.682198,41.764046 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mideast North",
+    "state":"Connecticut",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.519722,39.157307 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mideast South",
+    "state":"Delaware",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.281296,30.438118 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Gulf Coast East",
+    "state":"Florida",
+    "occurrence":210
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.388229,33.749027 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Gulf Coast East",
+    "state":"Georgia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.793732,13.444304 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Southwest/Pacific",
+    "state":"Guam",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -157.857376,21.307442 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Southwest/Pacific",
+    "state":"Hawaii",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.199722,43.617775 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Northeast",
+    "state":"Idaho",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.654961,39.798363 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"North Central",
+    "state":"Illinois",
+    "occurrence":48
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.162643,39.768623 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"North Central",
+    "state":"Indiana",
+    "occurrence":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.603729,41.591087 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"North Central",
+    "state":"Iowa",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.677956,39.048191 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Rockies/Mid-West",
+    "state":"Kansas",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.875374,38.186722 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Central",
+    "state":"Kentucky",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.187393,30.457069 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Gulf Coast West",
+    "state":"Louisiana",
+    "occurrence":246
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.781693,44.307167 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"New England",
+    "state":"Maine",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.490936,38.978764 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mid-Atlantic",
+    "state":"Maryland",
+    "occurrence":34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.063698,42.358162 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"New England",
+    "state":"Massachusetts",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.555328,42.733635 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Central",
+    "state":"Michigan",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.102211,44.955097 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"North Central",
+    "state":"Minnesota",
+    "occurrence":470
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.182106,32.303848 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Gulf Coast East",
+    "state":"Mississippi",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.172935,38.579201 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Plains",
+    "state":"Missouri",
+    "occurrence":32
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.018417,46.585709 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Northeast",
+    "state":"Montana",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.699654,40.808075 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Plains",
+    "state":"Nebraska",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.766121,39.163914 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Southwest/Pacific",
+    "state":"Nevada",
+    "occurrence":280
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.537994,43.206898 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"New England",
+    "state":"New Hampshire",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.769913,40.220596 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mideast North",
+    "state":"New Jersey",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.939728,35.68224 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Rockies/Mid-West",
+    "state":"New Mexico",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.757874,42.652843 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mideast North",
+    "state":"New York",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.639099,35.78043 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mid-Atlantic",
+    "state":"North Carolina",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.783318,46.82085 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Plains",
+    "state":"North Dakota",
+    "occurrence":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.999069,39.961346 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Central",
+    "state":"Ohio",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.503342,35.492207 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Rockies/Mid-West",
+    "state":"Oklahoma",
+    "occurrence":92
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.030403,44.938461 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Northeast",
+    "state":"Oregon",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.883598,40.264378 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"New England",
+    "state":"Pennsylvania",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.664513,18.200178 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Gulf Coast East",
+    "state":"Puerto Rico",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.414963,41.830914 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"New England",
+    "state":"Rhode Island",
+    "occurrence":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.033211,34.000343 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mid-Atlantic",
+    "state":"South Carolina",
+    "occurrence":44
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.346405,44.367031 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Plains",
+    "state":"South Dakota",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.784241,36.16581 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Central",
+    "state":"Tennessee",
+    "occurrence":110
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.740349,30.27467 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Gulf Coast West",
+    "state":"Texas",
+    "occurrence":514
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.867163,18.343441 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Gulf Coast East",
+    "state":"U.S. Virgin Islands",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.888237,40.777477 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Rockies/Mid-West",
+    "state":"Utah",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.580536,44.262436 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mideast North",
+    "state":"Vermont",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.43364,37.538857 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mid-Atlantic",
+    "state":"Virginia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.905014,47.035805 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Northeast",
+    "state":"Washington",
+    "occurrence":28
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.612328,38.336246 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Mideast North",
+    "state":"West Virginia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.384445,43.074684 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"North Central",
+    "state":"Wisconsin",
+    "occurrence":70
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.820236,41.140259 ]
+    },
+    "properties": {
+    "year":2016,
+    "region_description":"Rockies/Mid-West",
+    "state":"Wyoming",
+    "occurrence":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.300568,32.377716 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Gulf Coast East",
+    "state":"Alabama",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -134.420212,58.301598 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Southwest/Pacific",
+    "state":"Alaska",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.096962,33.448143 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Southwest/Pacific",
+    "state":"Arizona",
+    "occurrence":198
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.288986,34.746613 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Plains",
+    "state":"Arkansas",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.493629,38.576668 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Southwest/Pacific",
+    "state":"California",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.984856,39.739227 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Rockies/Mid-West",
+    "state":"Colorado",
+    "occurrence":112
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.682198,41.764046 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mideast North",
+    "state":"Connecticut",
+    "occurrence":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.519722,39.157307 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mideast South",
+    "state":"Delaware",
+    "occurrence":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.281296,30.438118 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Gulf Coast East",
+    "state":"Florida",
+    "occurrence":178
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.388229,33.749027 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Gulf Coast East",
+    "state":"Georgia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 144.793732,13.444304 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Southwest/Pacific",
+    "state":"Guam",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -157.857376,21.307442 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Southwest/Pacific",
+    "state":"Hawaii",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.199722,43.617775 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Northeast",
+    "state":"Idaho",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.654961,39.798363 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"North Central",
+    "state":"Illinois",
+    "occurrence":68
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.162643,39.768623 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"North Central",
+    "state":"Indiana",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.603729,41.591087 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"North Central",
+    "state":"Iowa",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.677956,39.048191 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Rockies/Mid-West",
+    "state":"Kansas",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.875374,38.186722 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Central",
+    "state":"Kentucky",
+    "occurrence":44
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.187393,30.457069 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Gulf Coast West",
+    "state":"Louisiana",
+    "occurrence":122
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.781693,44.307167 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"New England",
+    "state":"Maine",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.490936,38.978764 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mid-Atlantic",
+    "state":"Maryland",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.063698,42.358162 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"New England",
+    "state":"Massachusetts",
+    "occurrence":56
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.555328,42.733635 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Central",
+    "state":"Michigan",
+    "occurrence":44
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.102211,44.955097 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"North Central",
+    "state":"Minnesota",
+    "occurrence":346
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -90.182106,32.303848 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Gulf Coast East",
+    "state":"Mississippi",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.172935,38.579201 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Plains",
+    "state":"Missouri",
+    "occurrence":56
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.018417,46.585709 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Northeast",
+    "state":"Montana",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.699654,40.808075 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Plains",
+    "state":"Nebraska",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.766121,39.163914 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Southwest/Pacific",
+    "state":"Nevada",
+    "occurrence":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.537994,43.206898 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"New England",
+    "state":"New Hampshire",
+    "occurrence":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.769913,40.220596 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mideast North",
+    "state":"New Jersey",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.939728,35.68224 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Rockies/Mid-West",
+    "state":"New Mexico",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.757874,42.652843 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mideast North",
+    "state":"New York",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.639099,35.78043 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mid-Atlantic",
+    "state":"North Carolina",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.783318,46.82085 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Plains",
+    "state":"North Dakota",
+    "occurrence":22
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.999069,39.961346 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Central",
+    "state":"Ohio",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.503342,35.492207 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Rockies/Mid-West",
+    "state":"Oklahoma",
+    "occurrence":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.030403,44.938461 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Northeast",
+    "state":"Oregon",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.883598,40.264378 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"New England",
+    "state":"Pennsylvania",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.664513,18.200178 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Gulf Coast East",
+    "state":"Puerto Rico",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.414963,41.830914 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"New England",
+    "state":"Rhode Island",
+    "occurrence":26
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.033211,34.000343 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mid-Atlantic",
+    "state":"South Carolina",
+    "occurrence":60
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.346405,44.367031 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Plains",
+    "state":"South Dakota",
+    "occurrence":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.784241,36.16581 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Central",
+    "state":"Tennessee",
+    "occurrence":158
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.740349,30.27467 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Gulf Coast West",
+    "state":"Texas",
+    "occurrence":624
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -64.867163,18.343441 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Gulf Coast East",
+    "state":"U.S. Virgin Islands",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.888237,40.777477 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Rockies/Mid-West",
+    "state":"Utah",
+    "occurrence":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.580536,44.262436 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mideast North",
+    "state":"Vermont",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.43364,37.538857 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mid-Atlantic",
+    "state":"Virginia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.905014,47.035805 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Northeast",
+    "state":"Washington",
+    "occurrence":60
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.612328,38.336246 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Mideast North",
+    "state":"West Virginia",
+    "occurrence":0
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.384445,43.074684 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"North Central",
+    "state":"Wisconsin",
+    "occurrence":130
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.820236,41.140259 ]
+    },
+    "properties": {
+    "year":2017,
+    "region_description":"Rockies/Mid-West",
+    "state":"Wyoming",
+    "occurrence":4
+    }
+  }
+]
+}

@@ -1,0 +1,1698 @@
+[
+ {
+   "year": 2014,
+   "region_description": "Gulf Coast East",
+   "state": "Alabama",
+   "occurrence": 0,
+   "latitude": 32.377716,
+   "longitude": -86.300568
+ },
+ {
+   "year": 2014,
+   "region_description": "Southwest/Pacific",
+   "state": "Alaska",
+   "occurrence": 22,
+   "latitude": 58.301598,
+   "longitude": -134.420212
+ },
+ {
+   "year": 2014,
+   "region_description": "Southwest/Pacific",
+   "state": "Arizona",
+   "occurrence": 30,
+   "latitude": 33.448143,
+   "longitude": -112.096962
+ },
+ {
+   "year": 2014,
+   "region_description": "Plains",
+   "state": "Arkansas",
+   "occurrence": 0,
+   "latitude": 34.746613,
+   "longitude": -92.288986
+ },
+ {
+   "year": 2014,
+   "region_description": "Southwest/Pacific",
+   "state": "California",
+   "occurrence": 0,
+   "latitude": 38.576668,
+   "longitude": -121.493629
+ },
+ {
+   "year": 2014,
+   "region_description": "Rockies/Mid-West",
+   "state": "Colorado",
+   "occurrence": 26,
+   "latitude": 39.739227,
+   "longitude": -104.984856
+ },
+ {
+   "year": 2014,
+   "region_description": "Mideast North",
+   "state": "Connecticut",
+   "occurrence": 0,
+   "latitude": 41.764046,
+   "longitude": -72.682198
+ },
+ {
+   "year": 2014,
+   "region_description": "Mideast South",
+   "state": "Delaware",
+   "occurrence": 0,
+   "latitude": 39.157307,
+   "longitude": -75.519722
+ },
+ {
+   "year": 2014,
+   "region_description": "Gulf Coast East",
+   "state": "Florida",
+   "occurrence": 120,
+   "latitude": 30.438118,
+   "longitude": -84.281296
+ },
+ {
+   "year": 2014,
+   "region_description": "Gulf Coast East",
+   "state": "Georgia",
+   "occurrence": 0,
+   "latitude": 33.749027,
+   "longitude": -84.388229
+ },
+ {
+   "year": 2014,
+   "region_description": "Southwest/Pacific",
+   "state": "Guam",
+   "occurrence": 0,
+   "latitude": 13.444304,
+   "longitude": 144.793732
+ },
+ {
+   "year": 2014,
+   "region_description": "Southwest/Pacific",
+   "state": "Hawaii",
+   "occurrence": 0,
+   "latitude": 21.307442,
+   "longitude": -157.857376
+ },
+ {
+   "year": 2014,
+   "region_description": "Northeast",
+   "state": "Idaho",
+   "occurrence": 0,
+   "latitude": 43.617775,
+   "longitude": -116.199722
+ },
+ {
+   "year": 2014,
+   "region_description": "North Central",
+   "state": "Illinois",
+   "occurrence": 134,
+   "latitude": 39.798363,
+   "longitude": -89.654961
+ },
+ {
+   "year": 2014,
+   "region_description": "North Central",
+   "state": "Indiana",
+   "occurrence": 0,
+   "latitude": 39.768623,
+   "longitude": -86.162643
+ },
+ {
+   "year": 2014,
+   "region_description": "North Central",
+   "state": "Iowa",
+   "occurrence": 0,
+   "latitude": 41.591087,
+   "longitude": -93.603729
+ },
+ {
+   "year": 2014,
+   "region_description": "Rockies/Mid-West",
+   "state": "Kansas",
+   "occurrence": 2,
+   "latitude": 39.048191,
+   "longitude": -95.677956
+ },
+ {
+   "year": 2014,
+   "region_description": "Central",
+   "state": "Kentucky",
+   "occurrence": 0,
+   "latitude": 38.186722,
+   "longitude": -84.875374
+ },
+ {
+   "year": 2014,
+   "region_description": "Gulf Coast West",
+   "state": "Louisiana",
+   "occurrence": 0,
+   "latitude": 30.457069,
+   "longitude": -91.187393
+ },
+ {
+   "year": 2014,
+   "region_description": "New England",
+   "state": "Maine",
+   "occurrence": 0,
+   "latitude": 44.307167,
+   "longitude": -69.781693
+ },
+ {
+   "year": 2014,
+   "region_description": "Mid-Atlantic",
+   "state": "Maryland",
+   "occurrence": 0,
+   "latitude": 38.978764,
+   "longitude": -76.490936
+ },
+ {
+   "year": 2014,
+   "region_description": "New England",
+   "state": "Massachusetts",
+   "occurrence": 14,
+   "latitude": 42.358162,
+   "longitude": -71.063698
+ },
+ {
+   "year": 2014,
+   "region_description": "Central",
+   "state": "Michigan",
+   "occurrence": 6,
+   "latitude": 42.733635,
+   "longitude": -84.555328
+ },
+ {
+   "year": 2014,
+   "region_description": "North Central",
+   "state": "Minnesota",
+   "occurrence": 46,
+   "latitude": 44.955097,
+   "longitude": -93.102211
+ },
+ {
+   "year": 2014,
+   "region_description": "Gulf Coast East",
+   "state": "Mississippi",
+   "occurrence": 0,
+   "latitude": 32.303848,
+   "longitude": -90.182106
+ },
+ {
+   "year": 2014,
+   "region_description": "Plains",
+   "state": "Missouri",
+   "occurrence": 12,
+   "latitude": 38.579201,
+   "longitude": -92.172935
+ },
+ {
+   "year": 2014,
+   "region_description": "Northeast",
+   "state": "Montana",
+   "occurrence": 2,
+   "latitude": 46.585709,
+   "longitude": -112.018417
+ },
+ {
+   "year": 2014,
+   "region_description": "Plains",
+   "state": "Nebraska",
+   "occurrence": 0,
+   "latitude": 40.808075,
+   "longitude": -96.699654
+ },
+ {
+   "year": 2014,
+   "region_description": "Southwest/Pacific",
+   "state": "Nevada",
+   "occurrence": 0,
+   "latitude": 39.163914,
+   "longitude": -119.766121
+ },
+ {
+   "year": 2014,
+   "region_description": "New England",
+   "state": "New Hampshire",
+   "occurrence": 0,
+   "latitude": 43.206898,
+   "longitude": -71.537994
+ },
+ {
+   "year": 2014,
+   "region_description": "Mideast North",
+   "state": "New Jersey",
+   "occurrence": 0,
+   "latitude": 40.220596,
+   "longitude": -74.769913
+ },
+ {
+   "year": 2014,
+   "region_description": "Rockies/Mid-West",
+   "state": "New Mexico",
+   "occurrence": 0,
+   "latitude": 35.68224,
+   "longitude": -105.939728
+ },
+ {
+   "year": 2014,
+   "region_description": "Mideast North",
+   "state": "New York",
+   "occurrence": 0,
+   "latitude": 42.652843,
+   "longitude": -73.757874
+ },
+ {
+   "year": 2014,
+   "region_description": "Mid-Atlantic",
+   "state": "North Carolina",
+   "occurrence": 0,
+   "latitude": 35.78043,
+   "longitude": -78.639099
+ },
+ {
+   "year": 2014,
+   "region_description": "Plains",
+   "state": "North Dakota",
+   "occurrence": 0,
+   "latitude": 46.82085,
+   "longitude": -100.783318
+ },
+ {
+   "year": 2014,
+   "region_description": "Central",
+   "state": "Ohio",
+   "occurrence": 0,
+   "latitude": 39.961346,
+   "longitude": -82.999069
+ },
+ {
+   "year": 2014,
+   "region_description": "Rockies/Mid-West",
+   "state": "Oklahoma",
+   "occurrence": 20,
+   "latitude": 35.492207,
+   "longitude": -97.503342
+ },
+ {
+   "year": 2014,
+   "region_description": "Northeast",
+   "state": "Oregon",
+   "occurrence": 0,
+   "latitude": 44.938461,
+   "longitude": -123.030403
+ },
+ {
+   "year": 2014,
+   "region_description": "New England",
+   "state": "Pennsylvania",
+   "occurrence": 0,
+   "latitude": 40.264378,
+   "longitude": -76.883598
+ },
+ {
+   "year": 2014,
+   "region_description": "Gulf Coast East",
+   "state": "Puerto Rico",
+   "occurrence": 0,
+   "latitude": 18.200178,
+   "longitude": -66.664513
+ },
+ {
+   "year": 2014,
+   "region_description": "New England",
+   "state": "Rhode Island",
+   "occurrence": 0,
+   "latitude": 41.830914,
+   "longitude": -71.414963
+ },
+ {
+   "year": 2014,
+   "region_description": "Mid-Atlantic",
+   "state": "South Carolina",
+   "occurrence": 0,
+   "latitude": 34.000343,
+   "longitude": -81.033211
+ },
+ {
+   "year": 2014,
+   "region_description": "Plains",
+   "state": "South Dakota",
+   "occurrence": 0,
+   "latitude": 44.367031,
+   "longitude": -100.346405
+ },
+ {
+   "year": 2014,
+   "region_description": "Central",
+   "state": "Tennessee",
+   "occurrence": 60,
+   "latitude": 36.16581,
+   "longitude": -86.784241
+ },
+ {
+   "year": 2014,
+   "region_description": "Gulf Coast West",
+   "state": "Texas",
+   "occurrence": 382,
+   "latitude": 30.27467,
+   "longitude": -97.740349
+ },
+ {
+   "year": 2014,
+   "region_description": "Gulf Coast East",
+   "state": "U.S. Virgin Islands",
+   "occurrence": 0,
+   "latitude": 18.343441,
+   "longitude": -64.867163
+ },
+ {
+   "year": 2014,
+   "region_description": "Rockies/Mid-West",
+   "state": "Utah",
+   "occurrence": 0,
+   "latitude": 40.777477,
+   "longitude": -111.888237
+ },
+ {
+   "year": 2014,
+   "region_description": "Mideast North",
+   "state": "Vermont",
+   "occurrence": 0,
+   "latitude": 44.262436,
+   "longitude": -72.580536
+ },
+ {
+   "year": 2014,
+   "region_description": "Mid-Atlantic",
+   "state": "Virginia",
+   "occurrence": 0,
+   "latitude": 37.538857,
+   "longitude": -77.43364
+ },
+ {
+   "year": 2014,
+   "region_description": "Northeast",
+   "state": "Washington",
+   "occurrence": 4,
+   "latitude": 47.035805,
+   "longitude": -122.905014
+ },
+ {
+   "year": 2014,
+   "region_description": "Mideast North",
+   "state": "West Virginia",
+   "occurrence": 0,
+   "latitude": 38.336246,
+   "longitude": -81.612328
+ },
+ {
+   "year": 2014,
+   "region_description": "North Central",
+   "state": "Wisconsin",
+   "occurrence": 0,
+   "latitude": 43.074684,
+   "longitude": -89.384445
+ },
+ {
+   "year": 2014,
+   "region_description": "Rockies/Mid-West",
+   "state": "Wyoming",
+   "occurrence": 2,
+   "latitude": 41.140259,
+   "longitude": -104.820236
+ },
+ {
+   "year": 2015,
+   "region_description": "Gulf Coast East",
+   "state": "Alabama",
+   "occurrence": 0,
+   "latitude": 32.377716,
+   "longitude": -86.300568
+ },
+ {
+   "year": 2015,
+   "region_description": "Southwest/Pacific",
+   "state": "Alaska",
+   "occurrence": 10,
+   "latitude": 58.301598,
+   "longitude": -134.420212
+ },
+ {
+   "year": 2015,
+   "region_description": "Southwest/Pacific",
+   "state": "Arizona",
+   "occurrence": 12,
+   "latitude": 33.448143,
+   "longitude": -112.096962
+ },
+ {
+   "year": 2015,
+   "region_description": "Plains",
+   "state": "Arkansas",
+   "occurrence": 10,
+   "latitude": 34.746613,
+   "longitude": -92.288986
+ },
+ {
+   "year": 2015,
+   "region_description": "Southwest/Pacific",
+   "state": "California",
+   "occurrence": 0,
+   "latitude": 38.576668,
+   "longitude": -121.493629
+ },
+ {
+   "year": 2015,
+   "region_description": "Rockies/Mid-West",
+   "state": "Colorado",
+   "occurrence": 34,
+   "latitude": 39.739227,
+   "longitude": -104.984856
+ },
+ {
+   "year": 2015,
+   "region_description": "Mideast North",
+   "state": "Connecticut",
+   "occurrence": 0,
+   "latitude": 41.764046,
+   "longitude": -72.682198
+ },
+ {
+   "year": 2015,
+   "region_description": "Mideast South",
+   "state": "Delaware",
+   "occurrence": 0,
+   "latitude": 39.157307,
+   "longitude": -75.519722
+ },
+ {
+   "year": 2015,
+   "region_description": "Gulf Coast East",
+   "state": "Florida",
+   "occurrence": 92,
+   "latitude": 30.438118,
+   "longitude": -84.281296
+ },
+ {
+   "year": 2015,
+   "region_description": "Gulf Coast East",
+   "state": "Georgia",
+   "occurrence": 0,
+   "latitude": 33.749027,
+   "longitude": -84.388229
+ },
+ {
+   "year": 2015,
+   "region_description": "Southwest/Pacific",
+   "state": "Guam",
+   "occurrence": 0,
+   "latitude": 13.444304,
+   "longitude": 144.793732
+ },
+ {
+   "year": 2015,
+   "region_description": "Southwest/Pacific",
+   "state": "Hawaii",
+   "occurrence": 6,
+   "latitude": 21.307442,
+   "longitude": -157.857376
+ },
+ {
+   "year": 2015,
+   "region_description": "Northeast",
+   "state": "Idaho",
+   "occurrence": 0,
+   "latitude": 43.617775,
+   "longitude": -116.199722
+ },
+ {
+   "year": 2015,
+   "region_description": "North Central",
+   "state": "Illinois",
+   "occurrence": 122,
+   "latitude": 39.798363,
+   "longitude": -89.654961
+ },
+ {
+   "year": 2015,
+   "region_description": "North Central",
+   "state": "Indiana",
+   "occurrence": 0,
+   "latitude": 39.768623,
+   "longitude": -86.162643
+ },
+ {
+   "year": 2015,
+   "region_description": "North Central",
+   "state": "Iowa",
+   "occurrence": 0,
+   "latitude": 41.591087,
+   "longitude": -93.603729
+ },
+ {
+   "year": 2015,
+   "region_description": "Rockies/Mid-West",
+   "state": "Kansas",
+   "occurrence": 0,
+   "latitude": 39.048191,
+   "longitude": -95.677956
+ },
+ {
+   "year": 2015,
+   "region_description": "Central",
+   "state": "Kentucky",
+   "occurrence": 0,
+   "latitude": 38.186722,
+   "longitude": -84.875374
+ },
+ {
+   "year": 2015,
+   "region_description": "Gulf Coast West",
+   "state": "Louisiana",
+   "occurrence": 102,
+   "latitude": 30.457069,
+   "longitude": -91.187393
+ },
+ {
+   "year": 2015,
+   "region_description": "New England",
+   "state": "Maine",
+   "occurrence": 0,
+   "latitude": 44.307167,
+   "longitude": -69.781693
+ },
+ {
+   "year": 2015,
+   "region_description": "Mid-Atlantic",
+   "state": "Maryland",
+   "occurrence": 56,
+   "latitude": 38.978764,
+   "longitude": -76.490936
+ },
+ {
+   "year": 2015,
+   "region_description": "New England",
+   "state": "Massachusetts",
+   "occurrence": 4,
+   "latitude": 42.358162,
+   "longitude": -71.063698
+ },
+ {
+   "year": 2015,
+   "region_description": "Central",
+   "state": "Michigan",
+   "occurrence": 6,
+   "latitude": 42.733635,
+   "longitude": -84.555328
+ },
+ {
+   "year": 2015,
+   "region_description": "North Central",
+   "state": "Minnesota",
+   "occurrence": 238,
+   "latitude": 44.955097,
+   "longitude": -93.102211
+ },
+ {
+   "year": 2015,
+   "region_description": "Gulf Coast East",
+   "state": "Mississippi",
+   "occurrence": 0,
+   "latitude": 32.303848,
+   "longitude": -90.182106
+ },
+ {
+   "year": 2015,
+   "region_description": "Plains",
+   "state": "Missouri",
+   "occurrence": 26,
+   "latitude": 38.579201,
+   "longitude": -92.172935
+ },
+ {
+   "year": 2015,
+   "region_description": "Northeast",
+   "state": "Montana",
+   "occurrence": 0,
+   "latitude": 46.585709,
+   "longitude": -112.018417
+ },
+ {
+   "year": 2015,
+   "region_description": "Plains",
+   "state": "Nebraska",
+   "occurrence": 0,
+   "latitude": 40.808075,
+   "longitude": -96.699654
+ },
+ {
+   "year": 2015,
+   "region_description": "Southwest/Pacific",
+   "state": "Nevada",
+   "occurrence": 432,
+   "latitude": 39.163914,
+   "longitude": -119.766121
+ },
+ {
+   "year": 2015,
+   "region_description": "New England",
+   "state": "New Hampshire",
+   "occurrence": 0,
+   "latitude": 43.206898,
+   "longitude": -71.537994
+ },
+ {
+   "year": 2015,
+   "region_description": "Mideast North",
+   "state": "New Jersey",
+   "occurrence": 0,
+   "latitude": 40.220596,
+   "longitude": -74.769913
+ },
+ {
+   "year": 2015,
+   "region_description": "Rockies/Mid-West",
+   "state": "New Mexico",
+   "occurrence": 0,
+   "latitude": 35.68224,
+   "longitude": -105.939728
+ },
+ {
+   "year": 2015,
+   "region_description": "Mideast North",
+   "state": "New York",
+   "occurrence": 0,
+   "latitude": 42.652843,
+   "longitude": -73.757874
+ },
+ {
+   "year": 2015,
+   "region_description": "Mid-Atlantic",
+   "state": "North Carolina",
+   "occurrence": 0,
+   "latitude": 35.78043,
+   "longitude": -78.639099
+ },
+ {
+   "year": 2015,
+   "region_description": "Plains",
+   "state": "North Dakota",
+   "occurrence": 0,
+   "latitude": 46.82085,
+   "longitude": -100.783318
+ },
+ {
+   "year": 2015,
+   "region_description": "Central",
+   "state": "Ohio",
+   "occurrence": 6,
+   "latitude": 39.961346,
+   "longitude": -82.999069
+ },
+ {
+   "year": 2015,
+   "region_description": "Rockies/Mid-West",
+   "state": "Oklahoma",
+   "occurrence": 80,
+   "latitude": 35.492207,
+   "longitude": -97.503342
+ },
+ {
+   "year": 2015,
+   "region_description": "Northeast",
+   "state": "Oregon",
+   "occurrence": 0,
+   "latitude": 44.938461,
+   "longitude": -123.030403
+ },
+ {
+   "year": 2015,
+   "region_description": "New England",
+   "state": "Pennsylvania",
+   "occurrence": 0,
+   "latitude": 40.264378,
+   "longitude": -76.883598
+ },
+ {
+   "year": 2015,
+   "region_description": "Gulf Coast East",
+   "state": "Puerto Rico",
+   "occurrence": 0,
+   "latitude": 18.200178,
+   "longitude": -66.664513
+ },
+ {
+   "year": 2015,
+   "region_description": "New England",
+   "state": "Rhode Island",
+   "occurrence": 0,
+   "latitude": 41.830914,
+   "longitude": -71.414963
+ },
+ {
+   "year": 2015,
+   "region_description": "Mid-Atlantic",
+   "state": "South Carolina",
+   "occurrence": 28,
+   "latitude": 34.000343,
+   "longitude": -81.033211
+ },
+ {
+   "year": 2015,
+   "region_description": "Plains",
+   "state": "South Dakota",
+   "occurrence": 0,
+   "latitude": 44.367031,
+   "longitude": -100.346405
+ },
+ {
+   "year": 2015,
+   "region_description": "Central",
+   "state": "Tennessee",
+   "occurrence": 70,
+   "latitude": 36.16581,
+   "longitude": -86.784241
+ },
+ {
+   "year": 2015,
+   "region_description": "Gulf Coast West",
+   "state": "Texas",
+   "occurrence": 570,
+   "latitude": 30.27467,
+   "longitude": -97.740349
+ },
+ {
+   "year": 2015,
+   "region_description": "Gulf Coast East",
+   "state": "U.S. Virgin Islands",
+   "occurrence": 0,
+   "latitude": 18.343441,
+   "longitude": -64.867163
+ },
+ {
+   "year": 2015,
+   "region_description": "Rockies/Mid-West",
+   "state": "Utah",
+   "occurrence": 0,
+   "latitude": 40.777477,
+   "longitude": -111.888237
+ },
+ {
+   "year": 2015,
+   "region_description": "Mideast North",
+   "state": "Vermont",
+   "occurrence": 0,
+   "latitude": 44.262436,
+   "longitude": -72.580536
+ },
+ {
+   "year": 2015,
+   "region_description": "Mid-Atlantic",
+   "state": "Virginia",
+   "occurrence": 0,
+   "latitude": 37.538857,
+   "longitude": -77.43364
+ },
+ {
+   "year": 2015,
+   "region_description": "Northeast",
+   "state": "Washington",
+   "occurrence": 2,
+   "latitude": 47.035805,
+   "longitude": -122.905014
+ },
+ {
+   "year": 2015,
+   "region_description": "Mideast North",
+   "state": "West Virginia",
+   "occurrence": 0,
+   "latitude": 38.336246,
+   "longitude": -81.612328
+ },
+ {
+   "year": 2015,
+   "region_description": "North Central",
+   "state": "Wisconsin",
+   "occurrence": 8,
+   "latitude": 43.074684,
+   "longitude": -89.384445
+ },
+ {
+   "year": 2015,
+   "region_description": "Rockies/Mid-West",
+   "state": "Wyoming",
+   "occurrence": 2,
+   "latitude": 41.140259,
+   "longitude": -104.820236
+ },
+ {
+   "year": 2016,
+   "region_description": "Gulf Coast East",
+   "state": "Alabama",
+   "occurrence": 0,
+   "latitude": 32.377716,
+   "longitude": -86.300568
+ },
+ {
+   "year": 2016,
+   "region_description": "Southwest/Pacific",
+   "state": "Alaska",
+   "occurrence": 24,
+   "latitude": 58.301598,
+   "longitude": -134.420212
+ },
+ {
+   "year": 2016,
+   "region_description": "Southwest/Pacific",
+   "state": "Arizona",
+   "occurrence": 38,
+   "latitude": 33.448143,
+   "longitude": -112.096962
+ },
+ {
+   "year": 2016,
+   "region_description": "Plains",
+   "state": "Arkansas",
+   "occurrence": 12,
+   "latitude": 34.746613,
+   "longitude": -92.288986
+ },
+ {
+   "year": 2016,
+   "region_description": "Southwest/Pacific",
+   "state": "California",
+   "occurrence": 0,
+   "latitude": 38.576668,
+   "longitude": -121.493629
+ },
+ {
+   "year": 2016,
+   "region_description": "Rockies/Mid-West",
+   "state": "Colorado",
+   "occurrence": 68,
+   "latitude": 39.739227,
+   "longitude": -104.984856
+ },
+ {
+   "year": 2016,
+   "region_description": "Mideast North",
+   "state": "Connecticut",
+   "occurrence": 4,
+   "latitude": 41.764046,
+   "longitude": -72.682198
+ },
+ {
+   "year": 2016,
+   "region_description": "Mideast South",
+   "state": "Delaware",
+   "occurrence": 0,
+   "latitude": 39.157307,
+   "longitude": -75.519722
+ },
+ {
+   "year": 2016,
+   "region_description": "Gulf Coast East",
+   "state": "Florida",
+   "occurrence": 210,
+   "latitude": 30.438118,
+   "longitude": -84.281296
+ },
+ {
+   "year": 2016,
+   "region_description": "Gulf Coast East",
+   "state": "Georgia",
+   "occurrence": 0,
+   "latitude": 33.749027,
+   "longitude": -84.388229
+ },
+ {
+   "year": 2016,
+   "region_description": "Southwest/Pacific",
+   "state": "Guam",
+   "occurrence": 0,
+   "latitude": 13.444304,
+   "longitude": 144.793732
+ },
+ {
+   "year": 2016,
+   "region_description": "Southwest/Pacific",
+   "state": "Hawaii",
+   "occurrence": 4,
+   "latitude": 21.307442,
+   "longitude": -157.857376
+ },
+ {
+   "year": 2016,
+   "region_description": "Northeast",
+   "state": "Idaho",
+   "occurrence": 0,
+   "latitude": 43.617775,
+   "longitude": -116.199722
+ },
+ {
+   "year": 2016,
+   "region_description": "North Central",
+   "state": "Illinois",
+   "occurrence": 48,
+   "latitude": 39.798363,
+   "longitude": -89.654961
+ },
+ {
+   "year": 2016,
+   "region_description": "North Central",
+   "state": "Indiana",
+   "occurrence": 8,
+   "latitude": 39.768623,
+   "longitude": -86.162643
+ },
+ {
+   "year": 2016,
+   "region_description": "North Central",
+   "state": "Iowa",
+   "occurrence": 0,
+   "latitude": 41.591087,
+   "longitude": -93.603729
+ },
+ {
+   "year": 2016,
+   "region_description": "Rockies/Mid-West",
+   "state": "Kansas",
+   "occurrence": 4,
+   "latitude": 39.048191,
+   "longitude": -95.677956
+ },
+ {
+   "year": 2016,
+   "region_description": "Central",
+   "state": "Kentucky",
+   "occurrence": 0,
+   "latitude": 38.186722,
+   "longitude": -84.875374
+ },
+ {
+   "year": 2016,
+   "region_description": "Gulf Coast West",
+   "state": "Louisiana",
+   "occurrence": 246,
+   "latitude": 30.457069,
+   "longitude": -91.187393
+ },
+ {
+   "year": 2016,
+   "region_description": "New England",
+   "state": "Maine",
+   "occurrence": 0,
+   "latitude": 44.307167,
+   "longitude": -69.781693
+ },
+ {
+   "year": 2016,
+   "region_description": "Mid-Atlantic",
+   "state": "Maryland",
+   "occurrence": 34,
+   "latitude": 38.978764,
+   "longitude": -76.490936
+ },
+ {
+   "year": 2016,
+   "region_description": "New England",
+   "state": "Massachusetts",
+   "occurrence": 6,
+   "latitude": 42.358162,
+   "longitude": -71.063698
+ },
+ {
+   "year": 2016,
+   "region_description": "Central",
+   "state": "Michigan",
+   "occurrence": 6,
+   "latitude": 42.733635,
+   "longitude": -84.555328
+ },
+ {
+   "year": 2016,
+   "region_description": "North Central",
+   "state": "Minnesota",
+   "occurrence": 470,
+   "latitude": 44.955097,
+   "longitude": -93.102211
+ },
+ {
+   "year": 2016,
+   "region_description": "Gulf Coast East",
+   "state": "Mississippi",
+   "occurrence": 0,
+   "latitude": 32.303848,
+   "longitude": -90.182106
+ },
+ {
+   "year": 2016,
+   "region_description": "Plains",
+   "state": "Missouri",
+   "occurrence": 32,
+   "latitude": 38.579201,
+   "longitude": -92.172935
+ },
+ {
+   "year": 2016,
+   "region_description": "Northeast",
+   "state": "Montana",
+   "occurrence": 2,
+   "latitude": 46.585709,
+   "longitude": -112.018417
+ },
+ {
+   "year": 2016,
+   "region_description": "Plains",
+   "state": "Nebraska",
+   "occurrence": 0,
+   "latitude": 40.808075,
+   "longitude": -96.699654
+ },
+ {
+   "year": 2016,
+   "region_description": "Southwest/Pacific",
+   "state": "Nevada",
+   "occurrence": 280,
+   "latitude": 39.163914,
+   "longitude": -119.766121
+ },
+ {
+   "year": 2016,
+   "region_description": "New England",
+   "state": "New Hampshire",
+   "occurrence": 0,
+   "latitude": 43.206898,
+   "longitude": -71.537994
+ },
+ {
+   "year": 2016,
+   "region_description": "Mideast North",
+   "state": "New Jersey",
+   "occurrence": 0,
+   "latitude": 40.220596,
+   "longitude": -74.769913
+ },
+ {
+   "year": 2016,
+   "region_description": "Rockies/Mid-West",
+   "state": "New Mexico",
+   "occurrence": 0,
+   "latitude": 35.68224,
+   "longitude": -105.939728
+ },
+ {
+   "year": 2016,
+   "region_description": "Mideast North",
+   "state": "New York",
+   "occurrence": 0,
+   "latitude": 42.652843,
+   "longitude": -73.757874
+ },
+ {
+   "year": 2016,
+   "region_description": "Mid-Atlantic",
+   "state": "North Carolina",
+   "occurrence": 0,
+   "latitude": 35.78043,
+   "longitude": -78.639099
+ },
+ {
+   "year": 2016,
+   "region_description": "Plains",
+   "state": "North Dakota",
+   "occurrence": 10,
+   "latitude": 46.82085,
+   "longitude": -100.783318
+ },
+ {
+   "year": 2016,
+   "region_description": "Central",
+   "state": "Ohio",
+   "occurrence": 2,
+   "latitude": 39.961346,
+   "longitude": -82.999069
+ },
+ {
+   "year": 2016,
+   "region_description": "Rockies/Mid-West",
+   "state": "Oklahoma",
+   "occurrence": 92,
+   "latitude": 35.492207,
+   "longitude": -97.503342
+ },
+ {
+   "year": 2016,
+   "region_description": "Northeast",
+   "state": "Oregon",
+   "occurrence": 0,
+   "latitude": 44.938461,
+   "longitude": -123.030403
+ },
+ {
+   "year": 2016,
+   "region_description": "New England",
+   "state": "Pennsylvania",
+   "occurrence": 0,
+   "latitude": 40.264378,
+   "longitude": -76.883598
+ },
+ {
+   "year": 2016,
+   "region_description": "Gulf Coast East",
+   "state": "Puerto Rico",
+   "occurrence": 0,
+   "latitude": 18.200178,
+   "longitude": -66.664513
+ },
+ {
+   "year": 2016,
+   "region_description": "New England",
+   "state": "Rhode Island",
+   "occurrence": 12,
+   "latitude": 41.830914,
+   "longitude": -71.414963
+ },
+ {
+   "year": 2016,
+   "region_description": "Mid-Atlantic",
+   "state": "South Carolina",
+   "occurrence": 44,
+   "latitude": 34.000343,
+   "longitude": -81.033211
+ },
+ {
+   "year": 2016,
+   "region_description": "Plains",
+   "state": "South Dakota",
+   "occurrence": 0,
+   "latitude": 44.367031,
+   "longitude": -100.346405
+ },
+ {
+   "year": 2016,
+   "region_description": "Central",
+   "state": "Tennessee",
+   "occurrence": 110,
+   "latitude": 36.16581,
+   "longitude": -86.784241
+ },
+ {
+   "year": 2016,
+   "region_description": "Gulf Coast West",
+   "state": "Texas",
+   "occurrence": 514,
+   "latitude": 30.27467,
+   "longitude": -97.740349
+ },
+ {
+   "year": 2016,
+   "region_description": "Gulf Coast East",
+   "state": "U.S. Virgin Islands",
+   "occurrence": 0,
+   "latitude": 18.343441,
+   "longitude": -64.867163
+ },
+ {
+   "year": 2016,
+   "region_description": "Rockies/Mid-West",
+   "state": "Utah",
+   "occurrence": 0,
+   "latitude": 40.777477,
+   "longitude": -111.888237
+ },
+ {
+   "year": 2016,
+   "region_description": "Mideast North",
+   "state": "Vermont",
+   "occurrence": 4,
+   "latitude": 44.262436,
+   "longitude": -72.580536
+ },
+ {
+   "year": 2016,
+   "region_description": "Mid-Atlantic",
+   "state": "Virginia",
+   "occurrence": 0,
+   "latitude": 37.538857,
+   "longitude": -77.43364
+ },
+ {
+   "year": 2016,
+   "region_description": "Northeast",
+   "state": "Washington",
+   "occurrence": 28,
+   "latitude": 47.035805,
+   "longitude": -122.905014
+ },
+ {
+   "year": 2016,
+   "region_description": "Mideast North",
+   "state": "West Virginia",
+   "occurrence": 0,
+   "latitude": 38.336246,
+   "longitude": -81.612328
+ },
+ {
+   "year": 2016,
+   "region_description": "North Central",
+   "state": "Wisconsin",
+   "occurrence": 70,
+   "latitude": 43.074684,
+   "longitude": -89.384445
+ },
+ {
+   "year": 2016,
+   "region_description": "Rockies/Mid-West",
+   "state": "Wyoming",
+   "occurrence": 10,
+   "latitude": 41.140259,
+   "longitude": -104.820236
+ },
+ {
+   "year": 2017,
+   "region_description": "Gulf Coast East",
+   "state": "Alabama",
+   "occurrence": 0,
+   "latitude": 32.377716,
+   "longitude": -86.300568
+ },
+ {
+   "year": 2017,
+   "region_description": "Southwest/Pacific",
+   "state": "Alaska",
+   "occurrence": 6,
+   "latitude": 58.301598,
+   "longitude": -134.420212
+ },
+ {
+   "year": 2017,
+   "region_description": "Southwest/Pacific",
+   "state": "Arizona",
+   "occurrence": 198,
+   "latitude": 33.448143,
+   "longitude": -112.096962
+ },
+ {
+   "year": 2017,
+   "region_description": "Plains",
+   "state": "Arkansas",
+   "occurrence": 0,
+   "latitude": 34.746613,
+   "longitude": -92.288986
+ },
+ {
+   "year": 2017,
+   "region_description": "Southwest/Pacific",
+   "state": "California",
+   "occurrence": 0,
+   "latitude": 38.576668,
+   "longitude": -121.493629
+ },
+ {
+   "year": 2017,
+   "region_description": "Rockies/Mid-West",
+   "state": "Colorado",
+   "occurrence": 112,
+   "latitude": 39.739227,
+   "longitude": -104.984856
+ },
+ {
+   "year": 2017,
+   "region_description": "Mideast North",
+   "state": "Connecticut",
+   "occurrence": 16,
+   "latitude": 41.764046,
+   "longitude": -72.682198
+ },
+ {
+   "year": 2017,
+   "region_description": "Mideast South",
+   "state": "Delaware",
+   "occurrence": 10,
+   "latitude": 39.157307,
+   "longitude": -75.519722
+ },
+ {
+   "year": 2017,
+   "region_description": "Gulf Coast East",
+   "state": "Florida",
+   "occurrence": 178,
+   "latitude": 30.438118,
+   "longitude": -84.281296
+ },
+ {
+   "year": 2017,
+   "region_description": "Gulf Coast East",
+   "state": "Georgia",
+   "occurrence": 0,
+   "latitude": 33.749027,
+   "longitude": -84.388229
+ },
+ {
+   "year": 2017,
+   "region_description": "Southwest/Pacific",
+   "state": "Guam",
+   "occurrence": 0,
+   "latitude": 13.444304,
+   "longitude": 144.793732
+ },
+ {
+   "year": 2017,
+   "region_description": "Southwest/Pacific",
+   "state": "Hawaii",
+   "occurrence": 4,
+   "latitude": 21.307442,
+   "longitude": -157.857376
+ },
+ {
+   "year": 2017,
+   "region_description": "Northeast",
+   "state": "Idaho",
+   "occurrence": 0,
+   "latitude": 43.617775,
+   "longitude": -116.199722
+ },
+ {
+   "year": 2017,
+   "region_description": "North Central",
+   "state": "Illinois",
+   "occurrence": 68,
+   "latitude": 39.798363,
+   "longitude": -89.654961
+ },
+ {
+   "year": 2017,
+   "region_description": "North Central",
+   "state": "Indiana",
+   "occurrence": 6,
+   "latitude": 39.768623,
+   "longitude": -86.162643
+ },
+ {
+   "year": 2017,
+   "region_description": "North Central",
+   "state": "Iowa",
+   "occurrence": 0,
+   "latitude": 41.591087,
+   "longitude": -93.603729
+ },
+ {
+   "year": 2017,
+   "region_description": "Rockies/Mid-West",
+   "state": "Kansas",
+   "occurrence": 6,
+   "latitude": 39.048191,
+   "longitude": -95.677956
+ },
+ {
+   "year": 2017,
+   "region_description": "Central",
+   "state": "Kentucky",
+   "occurrence": 44,
+   "latitude": 38.186722,
+   "longitude": -84.875374
+ },
+ {
+   "year": 2017,
+   "region_description": "Gulf Coast West",
+   "state": "Louisiana",
+   "occurrence": 122,
+   "latitude": 30.457069,
+   "longitude": -91.187393
+ },
+ {
+   "year": 2017,
+   "region_description": "New England",
+   "state": "Maine",
+   "occurrence": 4,
+   "latitude": 44.307167,
+   "longitude": -69.781693
+ },
+ {
+   "year": 2017,
+   "region_description": "Mid-Atlantic",
+   "state": "Maryland",
+   "occurrence": 0,
+   "latitude": 38.978764,
+   "longitude": -76.490936
+ },
+ {
+   "year": 2017,
+   "region_description": "New England",
+   "state": "Massachusetts",
+   "occurrence": 56,
+   "latitude": 42.358162,
+   "longitude": -71.063698
+ },
+ {
+   "year": 2017,
+   "region_description": "Central",
+   "state": "Michigan",
+   "occurrence": 44,
+   "latitude": 42.733635,
+   "longitude": -84.555328
+ },
+ {
+   "year": 2017,
+   "region_description": "North Central",
+   "state": "Minnesota",
+   "occurrence": 346,
+   "latitude": 44.955097,
+   "longitude": -93.102211
+ },
+ {
+   "year": 2017,
+   "region_description": "Gulf Coast East",
+   "state": "Mississippi",
+   "occurrence": 0,
+   "latitude": 32.303848,
+   "longitude": -90.182106
+ },
+ {
+   "year": 2017,
+   "region_description": "Plains",
+   "state": "Missouri",
+   "occurrence": 56,
+   "latitude": 38.579201,
+   "longitude": -92.172935
+ },
+ {
+   "year": 2017,
+   "region_description": "Northeast",
+   "state": "Montana",
+   "occurrence": 4,
+   "latitude": 46.585709,
+   "longitude": -112.018417
+ },
+ {
+   "year": 2017,
+   "region_description": "Plains",
+   "state": "Nebraska",
+   "occurrence": 0,
+   "latitude": 40.808075,
+   "longitude": -96.699654
+ },
+ {
+   "year": 2017,
+   "region_description": "Southwest/Pacific",
+   "state": "Nevada",
+   "occurrence": 10,
+   "latitude": 39.163914,
+   "longitude": -119.766121
+ },
+ {
+   "year": 2017,
+   "region_description": "New England",
+   "state": "New Hampshire",
+   "occurrence": 4,
+   "latitude": 43.206898,
+   "longitude": -71.537994
+ },
+ {
+   "year": 2017,
+   "region_description": "Mideast North",
+   "state": "New Jersey",
+   "occurrence": 0,
+   "latitude": 40.220596,
+   "longitude": -74.769913
+ },
+ {
+   "year": 2017,
+   "region_description": "Rockies/Mid-West",
+   "state": "New Mexico",
+   "occurrence": 0,
+   "latitude": 35.68224,
+   "longitude": -105.939728
+ },
+ {
+   "year": 2017,
+   "region_description": "Mideast North",
+   "state": "New York",
+   "occurrence": 0,
+   "latitude": 42.652843,
+   "longitude": -73.757874
+ },
+ {
+   "year": 2017,
+   "region_description": "Mid-Atlantic",
+   "state": "North Carolina",
+   "occurrence": 0,
+   "latitude": 35.78043,
+   "longitude": -78.639099
+ },
+ {
+   "year": 2017,
+   "region_description": "Plains",
+   "state": "North Dakota",
+   "occurrence": 22,
+   "latitude": 46.82085,
+   "longitude": -100.783318
+ },
+ {
+   "year": 2017,
+   "region_description": "Central",
+   "state": "Ohio",
+   "occurrence": 0,
+   "latitude": 39.961346,
+   "longitude": -82.999069
+ },
+ {
+   "year": 2017,
+   "region_description": "Rockies/Mid-West",
+   "state": "Oklahoma",
+   "occurrence": 50,
+   "latitude": 35.492207,
+   "longitude": -97.503342
+ },
+ {
+   "year": 2017,
+   "region_description": "Northeast",
+   "state": "Oregon",
+   "occurrence": 2,
+   "latitude": 44.938461,
+   "longitude": -123.030403
+ },
+ {
+   "year": 2017,
+   "region_description": "New England",
+   "state": "Pennsylvania",
+   "occurrence": 0,
+   "latitude": 40.264378,
+   "longitude": -76.883598
+ },
+ {
+   "year": 2017,
+   "region_description": "Gulf Coast East",
+   "state": "Puerto Rico",
+   "occurrence": 0,
+   "latitude": 18.200178,
+   "longitude": -66.664513
+ },
+ {
+   "year": 2017,
+   "region_description": "New England",
+   "state": "Rhode Island",
+   "occurrence": 26,
+   "latitude": 41.830914,
+   "longitude": -71.414963
+ },
+ {
+   "year": 2017,
+   "region_description": "Mid-Atlantic",
+   "state": "South Carolina",
+   "occurrence": 60,
+   "latitude": 34.000343,
+   "longitude": -81.033211
+ },
+ {
+   "year": 2017,
+   "region_description": "Plains",
+   "state": "South Dakota",
+   "occurrence": 6,
+   "latitude": 44.367031,
+   "longitude": -100.346405
+ },
+ {
+   "year": 2017,
+   "region_description": "Central",
+   "state": "Tennessee",
+   "occurrence": 158,
+   "latitude": 36.16581,
+   "longitude": -86.784241
+ },
+ {
+   "year": 2017,
+   "region_description": "Gulf Coast West",
+   "state": "Texas",
+   "occurrence": 624,
+   "latitude": 30.27467,
+   "longitude": -97.740349
+ },
+ {
+   "year": 2017,
+   "region_description": "Gulf Coast East",
+   "state": "U.S. Virgin Islands",
+   "occurrence": 0,
+   "latitude": 18.343441,
+   "longitude": -64.867163
+ },
+ {
+   "year": 2017,
+   "region_description": "Rockies/Mid-West",
+   "state": "Utah",
+   "occurrence": 2,
+   "latitude": 40.777477,
+   "longitude": -111.888237
+ },
+ {
+   "year": 2017,
+   "region_description": "Mideast North",
+   "state": "Vermont",
+   "occurrence": 0,
+   "latitude": 44.262436,
+   "longitude": -72.580536
+ },
+ {
+   "year": 2017,
+   "region_description": "Mid-Atlantic",
+   "state": "Virginia",
+   "occurrence": 0,
+   "latitude": 37.538857,
+   "longitude": -77.43364
+ },
+ {
+   "year": 2017,
+   "region_description": "Northeast",
+   "state": "Washington",
+   "occurrence": 60,
+   "latitude": 47.035805,
+   "longitude": -122.905014
+ },
+ {
+   "year": 2017,
+   "region_description": "Mideast North",
+   "state": "West Virginia",
+   "occurrence": 0,
+   "latitude": 38.336246,
+   "longitude": -81.612328
+ },
+ {
+   "year": 2017,
+   "region_description": "North Central",
+   "state": "Wisconsin",
+   "occurrence": 130,
+   "latitude": 43.074684,
+   "longitude": -89.384445
+ },
+ {
+   "year": 2017,
+   "region_description": "Rockies/Mid-West",
+   "state": "Wyoming",
+   "occurrence": 4,
+   "latitude": 41.140259,
+   "longitude": -104.820236
+ }
+]
