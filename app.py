@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from config import cxnstring
 app = Flask(__name__)
 
-engine = create_engine(cxnstring)
+engine = create_engine(cxnstring, pool_recycle=3600)
 # , pool_recycle=3600
 
 @app.route("/")
