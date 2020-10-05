@@ -18,7 +18,7 @@ def psqltest():
 
 @app.route("/assault_by_state")
 def gender():
-    response = pd.read_sql("SELECT * FROM assault_per_state")
+    response = pd.read_sql("SELECT * FROM assault_per_state", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
 
