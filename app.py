@@ -1,4 +1,4 @@
-from flask import Flask, Response, render_template
+from flask import Flask, Response, render_template, jsonify
 import pandas as pd 
 from sqlalchemy import create_engine
 from config import cxnstring
@@ -21,6 +21,11 @@ def gender():
     response = pd.read_sql("SELECT * FROM assault_per_state", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
+@app.route("/test")
+def test():
+    stmt = pd.read_sql("SELECT * FROM assault_table_db", engine)
+    df = pd.read_sql_query(stmt,engine)
+    return jsonify(list(df.columns)[1:])
 
 if __name__ == "__main__":
     app.run()
