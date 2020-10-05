@@ -1,2 +1,1 @@
-web:gunicorn app:app 
-touch
+web:gunicorn app:app
