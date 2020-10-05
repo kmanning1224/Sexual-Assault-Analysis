@@ -16,6 +16,11 @@ def psqltest():
     response = pd.read_sql("SELECT * FROM assault_table_db", engine)
     return Response(response.to_json(orient="records", date_format="iso"), mimetype="application/json")
 
+@app.route("/gender")
+def gender():
+    response = pd.read_sql("SELECT gender FROM assault_table_db WHERE yearOfRegistration = 2015")
+    return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
+
 
 if __name__ == "__main__":
     app.run()
