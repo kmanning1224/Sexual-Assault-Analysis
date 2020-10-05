@@ -10,7 +10,7 @@ var light = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}
 }).addTo(map); 
 
 
-var data = "static/us_trafficking_locations.json";
+var data = "static/us_trafficking_locations.geojson";
 
 d3.json(data, function(response) {
 
@@ -18,13 +18,13 @@ d3.json(data, function(response) {
 
   var heatArray = [];
 
-  // for (var i = 0; i < response.length; i++) {
-  //   var location = response[i].location;
+  for (var i = 0; i < response.length; i++) {
+    var location = response[i].location;
 
-  //   if (location) {
-  //     heatArray.push([location.coordinates[1], location.coordinates[0]]);
-  //   }
-  // }
+    if (location) {
+      heatArray.push([location.coordinates[1], location.coordinates[0]]);
+    }
+  }
 
   var heat = L.heatLayer(heatArray, {
     radius: 20,
