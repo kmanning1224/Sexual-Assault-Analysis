@@ -1,2 +1,0 @@
-def getApp():
-    return app
