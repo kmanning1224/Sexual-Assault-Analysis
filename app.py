@@ -11,12 +11,12 @@ engine = create_engine(cxnstring, pool_recycle=3600)
 def index():
     return render_template("home.html")
 
-@app.route("/sqltest")
+@app.route("/fulldate")
 def psqltest():
     response = pd.read_sql("SELECT * FROM assault_table_db", engine)
     return Response(response.to_json(orient="records", date_format="iso"), mimetype="application/json")
 
-@app.route("/gender")
+@app.route("/assault_by_state")
 def gender():
     response = pd.read_sql("SELECT gender FROM assault_per_state")
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
