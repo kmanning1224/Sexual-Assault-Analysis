@@ -6,4 +6,4 @@ dbengine = "postgresql"
 db = "d7mkngu9oaro6h"
 cxnstring = (os.environ["DATABASE_URL"] if os.getenv("DATABASE_URL")
 else f"{dbengine}://{dbuser}:{dbpw}@{dbhost}/{db}")
-cxnstring = "sqlite:///assaultdb.sqlite"
+# cxnstring = "sqlite:///assaultdb.sqlite"
