@@ -31,4 +31,6 @@ function buildCharts(sample) {
         hovermode: "closest",
       };
   
-      Plotly.newPlot('bubble', data1, layout1, {responsive: true});
+      Plotly.newPlot('bubble', data1, layout1, {responsive: true})
+    })
+};
