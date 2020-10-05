@@ -9,7 +9,7 @@ engine = create_engine(cxnstring, pool_recycle=3600)
 
 @app.route("/")
 def index():
-    return "<h1> Deployed </h1>"
+    return render_template("index.html")
 
 @app.route("/sqltest")
 def psqltest():
