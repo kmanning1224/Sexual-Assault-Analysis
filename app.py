@@ -13,7 +13,7 @@ def index():
 
 @app.route("/sqltest")
 def psqltest():
-    response = pd.read_sql("SELECT * FROM assault_table", engine)
+    response = pd.read_sql("SELECT * FROM assault_table_db", engine)
     return Response(response.to_json(orient="records", date_format="iso"), mimetype="application/json")
 
 
