@@ -1,12 +1,12 @@
 function test(){
-  const url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/fulldate"]
+  const url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/test"]
   d3.json(url,function(testData){
-    testData.forEach(testDatum =>{
+    testData.map(testDatum =>{
       let gender = testDatum.gender;
       let year2015 = 2015;
       let year = testDatum.yearOfRegistration;
       let sexualassault = testDatum.isSexualExploit;
-      console.log(year)
+      console.log(testData)
       let testtrace = {
         x: year,
         y: sexualassault,

@@ -28,7 +28,7 @@ def gender():
 
 @app.route("/test")
 def test():
-    response = pd.read_sql("SELECT * FROM all_totals", engine)
+    response = pd.read_sql("SELECT * FROM all_totals_global", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
 if __name__ == "__main__":
