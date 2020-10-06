@@ -9,8 +9,8 @@ var light = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
 }).addTo(map); 
 
-var url = "https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/assault_by_state"
-console.log(url);
+// var url = "https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/assault_by_state"
+// console.log(url);
 
 
 // var data = "static/us_trafficking_locations.geojson";
@@ -18,7 +18,35 @@ console.log(url);
 // console.log(data)
 
 
+// d3.json(url).then(data => {
+//   console.log(data)
+//   var latitude = data[1].latitude;
+//   var longitude = data[1].longitude;
+//   var occurrences = data[1].reportedTraffickingCases;
 
+// });
+
+
+
+
+function test(){
+  const url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/assault_by_state"]
+  d3.json(url,function(testData){
+    testData.forEach(testDatum =>{
+      let latitude = testDatum.latitude
+      console.log(latitude)
+      let longitude = testDatum.longitude
+      console.log(longitude)
+      let occurrences = testDatum.reportedTraffickingCases
+      console.log(occurrences)
+    })
+  })
+}
+test();
+
+var heatMapPoints = [latitude, longitude, occurrences];
+
+var heat = L.heatLayer(heatMapPoints, {radius: 25}).addTo(map);
 
 
 
@@ -41,11 +69,22 @@ console.log(url);
 
 
 
-d3.json(url, function(response) {
 
-  console.log(response);
 
-  var heatArray = [];
+// USE THIS ONE
+// d3.json(url, function(response) {
+
+//   console.log(response);
+
+//   var heatArray = [];
+
+//   var latitude = response[0].latitude;
+//   var longitude = response[0].longitude;
+//   var occurrences = response[0].reportedTraffickingCases;
+  
+// console.log(latitude);
+
+
 
   // for (var i = 0; i < response.length; i++) {
   //   var location = response[i].location;
@@ -60,7 +99,7 @@ d3.json(url, function(response) {
   //   blur: 35
   // }).addTo(map);
 
-});
+// });
 
 
 

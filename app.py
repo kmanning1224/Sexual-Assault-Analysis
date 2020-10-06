@@ -26,14 +26,10 @@ def gender():
     response = pd.read_sql("SELECT * FROM assault_per_state", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
-@app.route("/test")
+@app.route("/gender")
 def test():
-    con = psycopg2.connect("postgres://ozanjhjyyivzlm:39da857ae1301adae785280dc1a1da959a74a0614d75f83446b0bbcc96b3e2c0@ec2-34-231-56-78.compute-1.amazonaws.com:5432/dcuvohmeofi05g")  
-    cur = con.cursor()
-    cur.execute("""select * from  assault_table_db""")
-    data = [col for col in cur]
-    cur.close()
-    return jsonify(data)
+    response = pd.read_sql("SELECT * FROM totals_gender", engine)
+    return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
 if __name__ == "__main__":
     app.run()
