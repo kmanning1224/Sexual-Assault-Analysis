@@ -1,12 +1,13 @@
 function test(){
   const url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/test"]
   d3.json(url,function(testData){
-    testData.map(testDatum =>{
-      let gender = testDatum.gender;
+    testData.forEach(testDatum =>{
+      let gender = testDatum.gender.slice(0,10)
+      // let filter = gender.filter(i => i.male == "Male")[0];
       let year2015 = 2015;
       let year = testDatum.yearOfRegistration;
       let sexualassault = testDatum.isSexualExploit;
-      console.log(testData)
+      console.log(gender)
       let testtrace = {
         x: year,
         y: sexualassault,
@@ -23,7 +24,7 @@ function test(){
   })
 }
 test();
-const url = ["https://assaultdb.herokuapp.com/fulldate"]
+// const url = ["https://assaultdb.herokuapp.com/fulldate"]
 
 // async function fetchAll(){
 //   const results = await Promise.all(url.map((urls) => fetch(urls).then ((r) => r.json())));

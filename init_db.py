@@ -19,3 +19,5 @@ df3 = pd.read_csv('Data/new_global_dataset_2020.csv').reset_index(drop=True)
 df3.to_sql(name="all_totals_global", con=create_engine(cxnstring), if_exists="append")
 
 
+df4 = pd.read_csv('Data/totalsGender_global_dataset_2020.csv').reset_index(drop=True)
+df3.to_sql(name="totals_gender", con=create_engine(cxnstring), if_exists="append")
