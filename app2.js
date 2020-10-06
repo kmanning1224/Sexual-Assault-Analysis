@@ -1,5 +1,32 @@
+function test(){
+  const url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/fulldate"]
+  d3.json(url,function(testData){
+    testData.forEach(testDatum =>{
+      let gender = testDatum.gender;
+      let year2015 = 2015;
+      let year = testDatum.yearOfRegistration;
+      let sexualassault = testDatum.isSexualExploit;
+      console.log(year)
+      let testtrace = {
+        x: year,
+        y: sexualassault,
+        type: "bar",
+      };
+      let testdata = [testtrace];
 
-    d3.request("https://assaultdb.herokuapp.com/test")
-    .header("X-Requested-With", "XMLHttpRequest")
-    .header("Content-Type", "application/x-www-form-urlencoded")
-    .post("a=2&b=3", callback);
+      let barlayout = {
+        title: `TEST`
+      }
+      Plotly.newPlot("bar", testdata, barlayout)
+
+    })
+  })
+}
+test();
+const url = ["https://assaultdb.herokuapp.com/fulldate"]
+
+// async function fetchAll(){
+//   const results = await Promise.all(url.map((urls) => fetch(urls).then ((r) => r.json())));
+//   let array = JSON.stringify(results, null, 2)
+//   console.log(array)
+//   };
