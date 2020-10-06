@@ -23,8 +23,8 @@ def gender():
 
 @app.route("/test")
 def test():
-    response = pd.read_sql("SELECT * FROM assault_table_db  FOR JSON AUTO;", engine)
-    return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
+    response = pd.read_sql("SELECT * FROM assault_table_db", engine)
+    return jsonify(Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json"))
 
 if __name__ == "__main__":
     app.run()
