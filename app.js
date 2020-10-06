@@ -23,14 +23,14 @@
             type: 'pie'
           }];
           var layout = {
-            title: `Recruiter Relation to ${age} year old Victims for ${year}`,
+            title: `${status}'s Recruiter Relation to ${age} year old ${gender} Victims for ${year}`,
             annotations: [
               {
                 font: {
-                  size: 20
+                  size: 18
                 },
                 showarrow: false,
-                text: `${year}`,
+                text: `${age}`,
                 x: 0.17,
                 y: 0.5
               },
