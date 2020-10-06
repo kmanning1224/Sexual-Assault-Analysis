@@ -1,4 +1,4 @@
-d3.json("https://assaultdb.herokuapp.com/fulldate").then(function(response) {
+d3.json("sqlite:///assaultdb.sqlite").then(function(response) {
     const gender = response.gender;
     const year = response.yearOfRegistration;
     const agerange = response.agerange;

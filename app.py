@@ -2,11 +2,12 @@ from flask import Flask, Response, render_template, jsonify
 import pandas as pd 
 from sqlalchemy import create_engine
 from config import cxnstring
+import requests
+import json
 app = Flask(__name__)
 
 engine = create_engine(cxnstring, pool_recycle=3600)
 # , pool_recycle=3600
-
 @app.route("/")
 def index():
     return render_template("home.html")
@@ -23,9 +24,9 @@ def gender():
 
 @app.route("/test")
 def test():
-    stmt = pd.read_sql("SELECT * FROM assault_table_db", engine)
-    
-    return jsonify(list(stmt.columns)[1:])
+    response = pd.read_sql("SELECT * FROM assault_table_db", engine)
+    return Response(response.to_json(orient="records", date_format="iso"), mimetype="application/javascript")
+
 
 if __name__ == "__main__":
     app.run()
