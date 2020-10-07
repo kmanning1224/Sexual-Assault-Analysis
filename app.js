@@ -1,8 +1,8 @@
 // function init() {
-    var queryUrl = "https://assaultdb.herokuapp.com/fulldate";
+    var queryUrl = "https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/fulldate";
 
     d3.json(queryUrl).then(data => {
-        // console.log(data)
+        console.log(data)
         var year = data[1].yearOfRegistration;
         var age = data[1].agerange;
         var gender = data[1].gender;
