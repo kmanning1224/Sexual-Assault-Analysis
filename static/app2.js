@@ -46,17 +46,19 @@ function test(){
       }
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
-      let trace1 = {
+      let Female = {
         x: yearfemalearray,
         y: exploitfemale,
         type: "bar",
+        name: 'Female'
       };
-      let trace2 = {
+      let Male = {
         x: yearmalearray,
         y: exploitmale,
-        type: "bar"
+        type: "bar",
+        name: 'Male'
       };
-      let testdata = [trace1,trace2];
+      let testdata = [Female,Male];
 
       let barlayout = {
         title: `TEST`
