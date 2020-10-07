@@ -29,7 +29,7 @@ def index():
 
 
 @app.route("/api/<year>/<gender>")
-def apitest(year,gender):
+def apitest(years,gender):
     with engine.connect() as con:
         gender = con.execute (""" SELECT DISTINCT (totals_gender."gender") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
         year = con.execute (""" SELECT DISTINCT (totals_gender."year"), (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
