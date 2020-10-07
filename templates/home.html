@@ -221,7 +221,7 @@
       </div>
     </div>
   </nav>
-
+ 
   <header class="masthead text-center text-white">
     <div class="masthead-content">
       <div class="container">
@@ -231,7 +231,7 @@
       </div>
     </div>
   </header>
-
+  
   <section>
     <div id = "section1">
     <div class="container">
@@ -259,7 +259,26 @@
             <h2 class="display-4">Our Data</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
           </div>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+
+          <div class="row">
+            <div class="col-md-12">
+              <h5>Selection:</h5>
+          <select class="custom-select" id="selDataset" onchange="optionChanged(this.value)">
+          
+          {%for y in years%}
+            <option value ="{{y}}">{{y}}</option>
+            {% endfor %}
+         
+          </select></div></div><div class="row">
+            <div class="col-md-12"><br>
+          <select class="custom-select" id="selDataset" onchange="optionChanged(this.value)">
+    
+            {%for g in gender%}
+              <option value = "{{g}}">{{g}}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
           <div class="col-md-5">
             <div id="bar"></div>
           </div>

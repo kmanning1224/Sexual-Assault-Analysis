@@ -1,16 +1,31 @@
-function test(){
-  const url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/test"]
+function ist(){
+  let url = ["https://assaultdb.herokuapp.com/fulldate"]
   d3.json(url,function(testData){
-    testData.forEach(testDatum =>{
-      let gender = testDatum.gender.slice(0,10)
-      // let filter = gender.filter(i => i.male == "Male")[0];
-      let year2015 = 2015;
+    testData.map(testDatum =>{
+      let years = testDatum.yearOfRegistration;
+      // console.log(years)
+      let drop_menu = d3.select("#selDataset");
+      years.forEach(function(year_id) {
+        drop_menu.append("option").text(year_id).propetyu("value");
+      })
+    }
+)}
+)}
+ist();    
+
+
+function test(){
+  let url = ["https://assaultdb.herokuapp.com/fulldate"]
+  d3.json(url,function(testData){
+    testData.map(testDatum =>{
+      let gender = testDatum.gender;
+      // let year2015 = 2015;
       let year = testDatum.yearOfRegistration;
       let sexualassault = testDatum.isSexualExploit;
-      console.log(gender)
+      console.log(year)
       let testtrace = {
         x: year,
-        y: sexualassault,
+        y: gender,
         type: "bar",
       };
       let testdata = [testtrace];
