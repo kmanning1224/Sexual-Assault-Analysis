@@ -1,33 +1,11 @@
 function optionChanged(){
-  let drop_year = d3.select('#selDataset_year').value
-  let drop_gender = d3.select('#selDataset_gender').value
- createDonut(drop_year);
- createBarGraph(drop_year,drop_gender);
+  let drop_year = d3.select('#selDataset_year').node().value[0];
+  let drop_gender = d3.select('#selDataset_gender').node().value[0];
+ createBarbyGender(drop_year,drop_gender);
 
 }
-
-function apitest(gender,year){
-  let url = `api/${year}/${gender}`
-  d3.json(url,function(data) {
-    const year = data.yearOfRegistration;
-    const gender = data.gender;
-
-    let trace1 = {
-      x: year,
-      y: gender,
-      text: gender,
-      type:"bar",
-    };
-    let data2 = [trace1];
-    let layout ={
-      title: 'TEST API CALL'
-    }
-    Plotly.newPlot("bubble",data2,layout)
-  })
-}
-apitest();
-function test(){
-  let url = ["https://assaultdb.herokuapp.com/gender"]
+function createBarbyGender(){
+  let url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender"]
   
   d3.json(url,function(testData){
       let yearfemalearray =[];
@@ -50,32 +28,38 @@ function test(){
         x: yearfemalearray,
         y: exploitfemale,
         type: "bar",
-        name: 'Female'
+        marker: {
+          color: 'rgba(50,171,96,0.6)',
+          line: {
+            color: 'rgba(50,171,96,1.0)',
+            width: 1
+          }
+        },
+        name: 'Female',
+        orientation : 'h'
       };
       let Male = {
         x: yearmalearray,
         y: exploitmale,
         type: "bar",
+        mode: 'lines+markers',
+        line: {
+          color: 'rgb(128,0,128)'
+      },
         name: 'Male'
       };
       let testdata = [Female,Male];
 
       let barlayout = {
-        title: `TEST`
+        title: `Sexual Exploits Male vs. Female`
       }
       Plotly.newPlot("bar", testdata, barlayout)
     })
   })
 }
-
-      
-    
-test();
+createBarbyGender();
+optionChanged();
 
 
-function fireoff(year,gender){
-d3.json(`/api/${year}/${gender}`).then(test => {
 
-})
-}
 

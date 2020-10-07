@@ -1,4 +1,4 @@
-from flask import Flask, Response, render_template, jsonify
+from flask import Flask, Response, render_template, jsonify,redirect, url_for, send_from_directory
 import pandas as pd 
 from sqlalchemy import create_engine
 from sqlalchemy import BigInteger, Column, JSON, Text
@@ -20,7 +20,7 @@ def index():
         #query result from sqlalchemy + postgres
         year = con.execute ("""SELECT DISTINCT (assault_table_db."yearOfRegistration") FROM assault_table_db;""")
         gender = con.execute (""" SELECT DISTINCT (totals_gender."gender")FROM totals_gender; """)
-        # gender =
+        # gender =-
         #cleaning results, removing uneeded values from tuple i.e( (,))
         years = [y[0] for y in year]
         gender = [g[0] for g in gender]
@@ -58,6 +58,9 @@ def fulldb():
     response = pd.read_sql("SELECT * FROM all_totals_global", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
+@app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('static', path)
 
 
 if __name__ == "__main__":
