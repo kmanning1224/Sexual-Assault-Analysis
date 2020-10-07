@@ -30,22 +30,16 @@ function createBarbyGender(){
         type: "bar",
         marker: {
           color: 'rgba(50,171,96,0.6)',
-          line: {
-            color: 'rgba(50,171,96,1.0)',
-            width: 1
-          }
         },
-        name: 'Female',
-        orientation : 'h'
+        name: 'Female'
       };
       let Male = {
         x: yearmalearray,
         y: exploitmale,
         type: "bar",
-        mode: 'lines+markers',
-        line: {
-          color: 'rgb(128,0,128)'
-      },
+        marker: {
+          color: 'rgba(50,171,60,0.6)',
+        },
         name: 'Male'
       };
       let testdata = [Female,Male];
