@@ -1,12 +1,12 @@
-// function init() {
-    var queryUrl = "https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/fulldate";
+function createDonut(yearSelect) {
+    var queryUrl = "https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender";
 
     d3.json(queryUrl).then(data => {
         console.log(data)
         var year = data[1].yearOfRegistration;
-        var age = data[1].agerange;
+        // var age = data[1].agerange;
         var gender = data[1].gender;
-        var status = data[1].majorityStatusAtExploit;
+        // var status = data[1].majorityStatusAtExploit;
         // console.log(gender)
         var partner = data[1].recruiterRelationIntimatePartner;
         var friend = data[1].recruiterRelationFriend;
@@ -57,7 +57,7 @@
             type: 'pie'
           }];
           var layout = {
-            title: `${age} year old ${gender} ${status} Victim Statistics for ${year}`,
+            title: `${gender} Victim Statistics for ${year}`,
             annotations: [
               {
                 font: {
@@ -98,6 +98,6 @@
 
      
     
-// }
+}
 
-// init()
+createDonut()
