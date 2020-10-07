@@ -26,6 +26,17 @@ def index():
 
     return render_template("home.html", years=years, gender=gender)
 
+
+@app.route("/api/<year>/<gender>")
+def apitest(year,gender):
+    with engine.connect() as con:
+        gender = con.execute (""" SELECT DISTINCT (totals_gender."gender") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
+        years = con.execute (""" SELECT DISTINCT (totals_gender."year"), (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
+        gender = [g[0] for g in gender]
+        years = [y[0] for y in year]
+        
+    return render_template("home.html",gender=gender)
+        
 @app.route("/fulldate")
 def psqltest():
     response = pd.read_sql("SELECT * FROM assault_table_db", engine)

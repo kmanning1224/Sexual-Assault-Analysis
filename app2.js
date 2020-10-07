@@ -1,48 +1,79 @@
-function ist(){
-  let url = ["https://assaultdb.herokuapp.com/fulldate"]
-  d3.json(url,function(testData){
-    testData.map(testDatum =>{
-      let years = testDatum.yearOfRegistration;
-      // console.log(years)
-      let drop_menu = d3.select("#selDataset");
-      years.forEach(function(year_id) {
-        drop_menu.append("option").text(year_id).propetyu("value");
-      })
+function optionChanged(){
+  let drop_year = d3.select('#selDataset_year').value
+  let drop_gender = d3.select('#selDataset_gender').value
+ createDonut(drop_year);
+ createBarGraph(drop_year,drop_gender);
+
+}
+
+function apitest(gender,year){
+  let url = `api/${year}/${gender}`
+  d3.json(url,function(data) {
+    const year = data.yearOfRegistration;
+    const gender = data.gender;
+
+    let trace1 = {
+      x: year,
+      y: gender,
+      text: gender,
+      type:"bar",
+    };
+    let data2 = [trace1];
+    let layout ={
+      title: 'TEST API CALL'
     }
-)}
-)}
-ist();    
-
-
+    Plotly.newPlot("bubble",data2,layout)
+  })
+}
+apitest();
 function test(){
-  let url = ["https://assaultdb.herokuapp.com/fulldate"]
+  let url = ["https://assaultdb.herokuapp.com/gender"]
+  
   d3.json(url,function(testData){
-    testData.map(testDatum =>{
-      let gender = testDatum.gender;
-      // let year2015 = 2015;
-      let year = testDatum.yearOfRegistration;
-      let sexualassault = testDatum.isSexualExploit;
-      console.log(year)
-      let testtrace = {
-        x: year,
-        y: gender,
+      let yearfemalearray =[];
+      let yearmalearray =[];
+      let exploitmale = [];
+      let exploitfemale=[];
+      testData.map((testDatum) =>{
+        // console.log(testDatum)
+      if (testDatum.gender === "Male"){
+        yearmalearray.push(testDatum.yearOfRegistration);
+        exploitmale.push(testDatum.isSexualExploit);
+      }
+      else {
+        yearfemalearray.push(testDatum.yearOfRegistration);
+        exploitfemale.push(testDatum.isSexualExploit);
+      }
+      // console.log(yearmalearray)
+      // console.log(yearfemalearray)
+      let trace1 = {
+        x: yearfemalearray,
+        y: exploitfemale,
         type: "bar",
       };
-      let testdata = [testtrace];
+      let trace2 = {
+        x: yearmalearray,
+        y: exploitmale,
+        type: "bar"
+      };
+      let testdata = [trace1,trace2];
 
       let barlayout = {
         title: `TEST`
       }
       Plotly.newPlot("bar", testdata, barlayout)
-
     })
   })
 }
-test();
-// const url = ["https://assaultdb.herokuapp.com/fulldate"]
 
-// async function fetchAll(){
-//   const results = await Promise.all(url.map((urls) => fetch(urls).then ((r) => r.json())));
-//   let array = JSON.stringify(results, null, 2)
-//   console.log(array)
-//   };
+      
+    
+test();
+
+
+function fireoff(year,gender){
+d3.json(`/api/${year}/${gender}`).then(test => {
+
+})
+}
+

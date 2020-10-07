@@ -263,7 +263,7 @@
           <div class="row">
             <div class="col-md-12">
               <h5>Selection:</h5>
-          <select class="custom-select" id="selDataset" onchange="optionChanged(this.value)">
+          <select class="custom-select" id="selDataset_year" onchange="optionChanged()">
           
           {%for y in years%}
             <option value ="{{y}}">{{y}}</option>
@@ -271,7 +271,7 @@
          
           </select></div></div><div class="row">
             <div class="col-md-12"><br>
-          <select class="custom-select" id="selDataset" onchange="optionChanged(this.value)">
+          <select class="custom-select" id="selDataset_gender" onchange="optionChanged()">
     
             {%for g in gender%}
               <option value = "{{g}}">{{g}}</option>

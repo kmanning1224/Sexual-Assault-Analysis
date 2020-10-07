@@ -1,5 +1,5 @@
-function createDonut(yearSelect) {
-    var queryUrl = "https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender";
+function createDonut(yearSelect,genderSelect) {
+    var queryUrl = `https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender/${yearSelect}/${genderSelect}`
 
     d3.json(queryUrl).then(data => {
         console.log(data)
@@ -100,4 +100,4 @@ function createDonut(yearSelect) {
     
 }
 
-createDonut()
+createDonut(2015,Female)
