@@ -3,13 +3,15 @@ import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy import BigInteger, Column, JSON, Text
 from config import cxnstring
+from flask_cors import CORS
 import psycopg2
 import sys
 import requests
 import json
 import os
-app = Flask(__name__, static_folder=os.path.abspath('C:/Users/katma/Documents/GitHub/Trilogoy/Homework/Project-2'))
-
+app = Flask(__name__)
+app._static_folder = ''
+CORS(app)
 engine = create_engine(cxnstring, pool_recycle=3600)
 
 
@@ -18,7 +20,7 @@ engine = create_engine(cxnstring, pool_recycle=3600)
 def index():
     with engine.connect() as con:
         #query result from sqlalchemy + postgres
-        year = con.execute ("""SELECT DISTINCT (assault_table_db."yearOfRegistration") FROM assault_table_db;""")
+        year = con.execute ("""SELECT DISTINCT (totals_gender."yearOfRegistration") FROM totals_gender;""")
         gender = con.execute (""" SELECT DISTINCT (totals_gender."gender")FROM totals_gender; """)
         # gender =-
         #cleaning results, removing uneeded values from tuple i.e( (,))
@@ -32,11 +34,11 @@ def index():
 def apitest(years,gender):
     with engine.connect() as con:
         gender = con.execute (""" SELECT DISTINCT (totals_gender."gender") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
-        year = con.execute (""" SELECT DISTINCT (totals_gender."year"), (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
+        year = con.execute (""" SELECT DISTINCT (totals_gender."year") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
         gender = [g[0] for g in gender]
         years = [y[0] for y in year]
         
-    return render_template("home.html",gender=gender)
+    return render_template("home.html",years=years, gender=gender)
         
 @app.route("/fulldate")
 def psqltest():
@@ -64,4 +66,4 @@ def send_static(path):
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
