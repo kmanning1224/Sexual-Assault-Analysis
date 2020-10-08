@@ -3,6 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy import BigInteger, Column, JSON, Text
 from config import cxnstring
+from flask_cors import CORS
 import psycopg2
 import sys
 import requests
@@ -10,7 +11,7 @@ import json
 import os
 app = Flask(__name__)
 app._static_folder = ''
-
+CORS(app)
 engine = create_engine(cxnstring, pool_recycle=3600)
 
 
@@ -37,7 +38,7 @@ def apitest(years,gender):
         gender = [g[0] for g in gender]
         years = [y[0] for y in year]
         
-    return render_template("home.html",gender=gender)
+    return render_template("home.html",gender=gender,years=years)
         
 @app.route("/fulldate")
 def psqltest():

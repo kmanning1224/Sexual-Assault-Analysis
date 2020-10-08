@@ -5,9 +5,11 @@ function optionChanged(){
 
 }
 function createBarbyGender(){
-  let url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/fulldate"]
+  let url = ["https://assaultdb.herokuapp.com/gender"]
+  // let url2 = `/api/${year}/${gender}`
   d3.json(url,function(testData){
     // console.log(testData)
+    let yearselect = d3.select('#selDataset_year').node().value[0];
       let yearfemalearray =[];
       let yearmalearray =[];
       let exploitmale = [];
@@ -79,29 +81,28 @@ function createBarbyGender(){
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
       let Female = {
-        x: yearfemalearray,
+        x: yearselect,
         y: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
         meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF,
-        type: "bubble",
+        mode: "markers",
         marker: {
           size: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
           meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF,
           color: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
           meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF
         },
-        text : meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
-        meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF
+        text : "Means of Control"
       };
-      let Male = {
-        x: yearmalearray,
-        y: exploitmale,
-        type: "bubble",
-        marker: {
-          color: 'rgba(50,171,60,0.6)',
-        },
-        name: 'Male'
-      };
-      let testdata = [Female,Male];
+      // let Male = {
+      //   x: yearmalearray,
+      //   y: exploitmale,
+      //   mode: "markers",
+      //   marker: {
+      //     color: 'rgba(50,171,60,0.6)',
+      //   },
+      //   name: 'Male'
+      // };
+      let testdata = [Female];
 
       let barlayout = {
         title: `Sexual Exploits Male vs. Female`
