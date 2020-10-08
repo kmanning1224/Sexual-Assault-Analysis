@@ -76,12 +76,12 @@ function createBarbyGender(){
         recOtherF.push(testDatum.reacruiterRelationOther)
       }
       console.log(exploitfemale)
-      // bar.html("")
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
       let Female = {
         x: yearfemalearray,
-        y: meansofControlPAF,meansofControlPSF
+        y: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
+        meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF,
         type: "bar",
         marker: {
           color: 'rgba(50,171,96,0.6)',
