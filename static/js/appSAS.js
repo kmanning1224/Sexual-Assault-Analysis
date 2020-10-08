@@ -11,34 +11,33 @@ function createDonut() {
     let y_select = d3.select('#selDataset_year').node().value[0];
     let g_select = d3.select('#selDataset_gender').node().value[0];
     
-    d3.json(queryUrl, function (data) {
-      data.map((Datum) =>{
+    d3.json(queryUrl). then(data => {
         // console.log(data)
-        var year = Datum(obj => obj.yearOfRegistration == y_select)[0];
-        var gender = Datum(obj => obj.gender == g_select)[0];
+        var year = data.index(obj => obj.yearOfRegistration == y_select)[0];
+        var gender = year.gender;
         var pie = d3.select('#pie');
         pie.html("");
 
         console.log(gender)
-        var partner = Datum.recruiterRelationIntimatePartner;
-        var friend = Datum.recruiterRelationFriend;
-        var family = Datum.recruiterRelationFamily;
-        var other = Datum.recruiterRelationOther;
+        var partner = data.recruiterRelationIntimatePartner;
+        var friend = data.recruiterRelationFriend;
+        var family = data.recruiterRelationFamily;
+        var other = data.recruiterRelationOther;
 
-        var earnings = Datum.meansOfControlTakesEarnings;
-        var threats = Datum.meansOfControlThreats;
-        var psyabuse = Datum.meansOfControlPsychologicalAbuse;
-        var phyabuse = Datum.meansOfControlPhysicalAbuse;
-        var sexabuse = Datum.meansOfControlSexualAbuse;
-        var drugs = Datum.meansOfControlPsychoactiveSubstances;
-        var move = Datum.meansOfControlRestrictsMovement;
-        var children = Datum.meansOfControlUsesChildren;
-        var leo = Datum.meansOfControlThreatOfLawEnforcement;
+        var earnings = data.meansOfControlTakesEarnings;
+        var threats = data.meansOfControlThreats;
+        var psyabuse = data.meansOfControlPsychologicalAbuse;
+        var phyabuse = data.meansOfControlPhysicalAbuse;
+        var sexabuse = data.meansOfControlSexualAbuse;
+        var drugs = data.meansOfControlPsychoactiveSubstances;
+        var move = data.meansOfControlRestrictsMovement;
+        var children = data.meansOfControlUsesChildren;
+        var leo = data.meansOfControlThreatOfLawEnforcement;
 
-        var labour = Datum.isForcedLabour;
-        var sexex = Datum.isSexualExploit;
-        var otherex = Datum.isOtherExploit;
-        var abduction = Datum.isAbduction;
+        var labour = data.isForcedLabour;
+        var sexex = data.isSexualExploit;
+        var otherex = data.isOtherExploit;
+        var abduction = data.isAbduction;
 
         var data = [{
             values: [partner, friend, family, other],
@@ -110,9 +109,7 @@ function createDonut() {
         });
 
      
-});
-
-};
+      }
 
 createDonut();
 optionChanged();
