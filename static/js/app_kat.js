@@ -7,7 +7,7 @@ function optionChanged(){
 function createBarbyGender(){
   let url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/fulldate"]
   d3.json(url,function(testData){
-    console.log(testData)
+    // console.log(testData)
       let yearfemalearray =[];
       let yearmalearray =[];
       let exploitmale = [];
@@ -75,23 +75,27 @@ function createBarbyGender(){
         recRomancF.push(testDatum.recruiterRelationIntimatePartner)
         recOtherF.push(testDatum.reacruiterRelationOther)
       }
-      console.log(exploitfemale)
+      // console.log(exploitfemale)
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
       let Female = {
         x: yearfemalearray,
         y: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
         meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF,
-        type: "bar",
+        type: "bubble",
         marker: {
-          color: 'rgba(50,171,96,0.6)',
+          size: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
+          meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF,
+          color: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
+          meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF
         },
-        name: 'Female'
+        text : meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
+        meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF
       };
       let Male = {
         x: yearmalearray,
         y: exploitmale,
-        type: "bar",
+        type: "bubble",
         marker: {
           color: 'rgba(50,171,60,0.6)',
         },
