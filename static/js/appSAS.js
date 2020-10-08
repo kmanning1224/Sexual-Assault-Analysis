@@ -11,9 +11,14 @@ function createDonut() {
     // let y_select = d3.select('#selDataset_year').node().value[0];
     // let g_select = d3.select('#selDataset_gender').node().value[0];
     
-    d3.json(url,function(testData){
+    d3.json(queryUrl,function(testData){
      
       let y_select = d3.select('#selDataset_year').node().value[0];
+      let test = [];
+      let filter = test.filter(y => y.y_select === y_select);
+      let pie = d3.select('#pie')
+      pie.html("");
+
        let yearf = [];
        let yearm = [];
 
@@ -144,7 +149,11 @@ function createDonut() {
           showlegend: false,
           grid: {rows: 1, columns: 3}
         };
+
+        Plotly.newPlot('pie', data, layout);
+      
       }
+
 
       else {
         let gender = testDatum.gender;
@@ -234,6 +243,9 @@ function createDonut() {
           showlegend: false,
           grid: {rows: 1, columns: 3}
         };
+
+        Plotly.newPlot('pie', data, layout);
+
       }
         // var year = data[1].yearOfRegistration;
         // var gender = data[1].gender;
@@ -325,7 +337,7 @@ function createDonut() {
         //     grid: {rows: 1, columns: 3}
         //   };
 
-          Plotly.newPlot('pie', data, layout);
+          // Plotly.newPlot('pie', data, layout);
       
         });
 
