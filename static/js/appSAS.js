@@ -1,32 +1,44 @@
-// function init() {
-    var queryUrl = "https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/fulldate";
+function optionChanged(){
+    let drop_year = d3.select('#selDataset_year').node().value[0];
+    let drop_gender = d3.select('#selDataset_gender').node().value[0];
+   createDonut(drop_year,drop_gender);
+  }
 
-    d3.json(queryUrl).then(data => {
-        console.log(data)
-        var year = data[1].yearOfRegistration;
-        var age = data[1].agerange;
-        var gender = data[1].gender;
-        var status = data[1].majorityStatusAtExploit;
-        // console.log(gender)
-        var partner = data[1].recruiterRelationIntimatePartner;
-        var friend = data[1].recruiterRelationFriend;
-        var family = data[1].recruiterRelationFamily;
-        var other = data[1].recruiterRelationOther;
+function createDonut() {
+    // var queryUrl = `https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender/${yearSelect}/${genderSelect}`
+    var queryUrl = `https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender`
 
-        var earnings = data[1].meansOfControlTakesEarnings;
-        var threats = data[1].meansOfControlThreats;
-        var psyabuse = data[1].meansOfControlPsychologicalAbuse;
-        var phyabuse = data[1].meansOfControlPhysicalAbuse;
-        var sexabuse = data[1].meansOfControlSexualAbuse;
-        var drugs = data[1].meansOfControlPsychoactiveSubstances;
-        var move = data[1].meansOfControlRestrictsMovement;
-        var children = data[1].meansOfControlUsesChildren;
-        var leo = data[1].meansOfControlThreatOfLawEnforcement;
+    let y_select = d3.select('#selDataset_year').node().value[0];
+    let g_select = d3.select('#selDataset_gender').node().value[0];
+    
+    d3.json(queryUrl, function (data) {
+      data.map((Datum) =>{
+        // console.log(data)
+        var year = Datum(obj => obj.yearOfRegistration == y_select)[0];
+        var gender = Datum(obj => obj.gender == g_select)[0];
+        var pie = d3.select('#pie');
+        pie.html("");
 
-        var labour = data[1].isForcedLabour;
-        var sexex = data[1].isSexualExploit;
-        var otherex = data[1].isOtherExploit;
-        var abduction = data[1].isAbduction;
+        console.log(gender)
+        var partner = Datum.recruiterRelationIntimatePartner;
+        var friend = Datum.recruiterRelationFriend;
+        var family = Datum.recruiterRelationFamily;
+        var other = Datum.recruiterRelationOther;
+
+        var earnings = Datum.meansOfControlTakesEarnings;
+        var threats = Datum.meansOfControlThreats;
+        var psyabuse = Datum.meansOfControlPsychologicalAbuse;
+        var phyabuse = Datum.meansOfControlPhysicalAbuse;
+        var sexabuse = Datum.meansOfControlSexualAbuse;
+        var drugs = Datum.meansOfControlPsychoactiveSubstances;
+        var move = Datum.meansOfControlRestrictsMovement;
+        var children = Datum.meansOfControlUsesChildren;
+        var leo = Datum.meansOfControlThreatOfLawEnforcement;
+
+        var labour = Datum.isForcedLabour;
+        var sexex = Datum.isSexualExploit;
+        var otherex = Datum.isOtherExploit;
+        var abduction = Datum.isAbduction;
 
         var data = [{
             values: [partner, friend, family, other],
@@ -57,7 +69,7 @@
             type: 'pie'
           }];
           var layout = {
-            title: `${age} year old ${gender} ${status} Victim Statistics for ${year}`,
+            title: `${gender} Victim Statistics for ${year}`,
             annotations: [
               {
                 font: {
@@ -94,10 +106,13 @@
           };
 
           Plotly.newPlot('pie', data, layout);
+      
         });
 
      
-    
-// }
+});
 
-// init()
+};
+
+createDonut();
+optionChanged();
