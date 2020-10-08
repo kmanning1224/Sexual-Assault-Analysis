@@ -3,14 +3,13 @@ import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy import BigInteger, Column, JSON, Text
 from config import cxnstring
-from whitenoise import WhiteNoise
 import psycopg2
 import sys
 import requests
 import json
 import os
-app = Flask(__name__)
-app.wsgi_app = WhiteNoise(app.wsgi_app, root='static/')
+app = Flask(__name__, static_folder=os.path.abspath('C:/Users/katma/Documents/GitHub/Trilogoy/Homework/Project-2'))
+
 engine = create_engine(cxnstring, pool_recycle=3600)
 
 
