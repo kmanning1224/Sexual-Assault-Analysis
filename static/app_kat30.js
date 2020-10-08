@@ -97,62 +97,56 @@ function createBarbyGender(){
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
       let PAFtrace = {
-        x: yearfemalearray,
+        x: genderM,
         y: meansofControlPAF,meansofControlPAM,
         name: 'Physical Abuse - Means of Control',
         type: 'bar'
       };
       let PStrace = {
-        x: yearfemalearray,
+        x: genderF,genderM,
         y:  meansofControlPSM, meansofControlPSF,
         name: 'Psychoactive Substances - Means of Control',
         type: 'bar'
       };
       let PsAtrace = {
-        x: yearfemalearray,
+        x: genderF,genderM,
         y: meansofControlPsAF, meansofControlPsAM,
         name:'Psychological Abuse - Means of Control',
         type: 'bar'
       }
       let RMtrace = {
-        x: yearfemalearray,
+        x: genderF,genderM,
         y: meansofControlRMF, meansofControlRMM,
         name : 'Restricts Movement - Means of Control',
         type: 'bar'
       }
       let SAtrace = {
-        x: yearfemalearray,
+        x: genderF,genderM,
         y: meansofControlSAF, meansofControlSAM,
         name: 'Sexual Abuse - Means of Control',
         type: 'bar'
       }
       let TEtrace = {
-        x: yearfemalearray,
+        x: genderF,genderM,
         y: meansofControlTEF, meansofControlTEM,
         name: 'Takes Earnings - Means of Control',
         type: 'bar'
       }
       let ToLtrace = {
-        x: yearfemalearray,
+        x: genderF,genderM,
         y: meansofControlToLF, meansofControlToLM,
         name: 'Threats of Law Enforcement - Means of Control',
         type: 'bar'
       }
       let Ttrace = {
-        x:yearfemalearray,
+        x: genderF,genderM,
         y: meansofControlTF, meansofControlTM,
         name:'Threats (General) - Means of Control',
         type: 'bar'
       }
-      let UCtrace = {
-        x: yearfemalearray,
-        y: meansofControlUCM, meansofControlUCF,
-        name: 'Using Children - Means of Control',
-        type: 'bar'
-      }
+  
 
-      let data = [PAFtrace, PStrace,PsAtrace,RMtrace,SAtrace,TEtrace,ToLtrace,Ttrace
-      ,UCtrace]
+      let data = [PAFtrace, PStrace,PsAtrace,RMtrace,SAtrace,TEtrace,ToLtrace,Ttrace]
       let layout = {
         barmode: 'stack',
         colorway : 'YlGnBu',
