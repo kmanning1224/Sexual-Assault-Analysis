@@ -7,7 +7,7 @@ function optionChanged(){
 function createDonut() {
     // var queryUrl = `https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender/${yearSelect}/${genderSelect}`
     var queryUrl = `https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender`
-
+    let url = ["https://assaultdb.herokuapp.com/gender"]
     // let y_select = d3.select('#selDataset_year').node().value[0];
     // let g_select = d3.select('#selDataset_gender').node().value[0];
     
