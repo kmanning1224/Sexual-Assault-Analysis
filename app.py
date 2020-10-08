@@ -8,7 +8,7 @@ import sys
 import requests
 import json
 import os
-app = Flask(__name__, static_folder=os.path.abspath('C:/Users/katma/Documents/GitHub/Trilogoy/Homework/Project-2'))
+app = Flask(__name__, static_folder='static')
 
 engine = create_engine(cxnstring, pool_recycle=3600)
 

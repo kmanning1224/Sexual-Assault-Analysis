@@ -5,30 +5,83 @@ function optionChanged(){
 
 }
 function createBarbyGender(){
-  let url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender"]
+  let url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/fulldate"]
   d3.json(url,function(testData){
     console.log(testData)
       let yearfemalearray =[];
       let yearmalearray =[];
       let exploitmale = [];
       let exploitfemale=[];
+      let meansofControlPAM =[];
+      let meansofControlPAF =[];
+      let meansofControlPSM =[];
+      let meansofControlPSF =[];
+      let meansofControlPsAM =[];
+      let meansofControlPsAF =[];
+      let meansofControlRMM =[];
+      let meansofControlRMF =[];
+      let meansofControlSAM =[];
+      let meansofControlSAF =[];
+      let meansofControlTEM = [];
+      let meansofControlTEF = [];
+      let meansofControlToLM = [];
+      let meansofControlToLF = [];
+      let meansofControlTM =[];
+      let meansofControlTF =[];
+      let meansofControlUCM =[];
+      let meansofControlUCF = [];
+      let recFamilyM =[];
+      let recFamilyF =[];
+      let recFriendM = [];
+      let recFriendF = [];
+      let recRomancM = [];
+      let recRomancF = [];
+      let recOtherM =[];
+      let recOtherF =[];
       testData.map((testDatum) =>{
         // console.log(testDatum)
       if (testDatum.gender === "Male"){
         yearmalearray.push(testDatum.yearOfRegistration);
         exploitmale.push(testDatum.isSexualExploit);
+        meansofControlPAM.push(testDatum.meansOfControlPhysicalAbuse)
+        meansofControlPSM.push(testDatum.meansOfControlPsychoactiveSubstances)
+        meansofControlPsAM.push(testDatum.meansOfControlPsychologicalAbuse)
+        meansofControlRMM.push(testDatum.meansOfControlRestrictsMovement)
+        meansofControlSAM.push(testDatum.meansOfControlSexualAbuse)
+        meansofControlTEM.push(testDatum.meansOfControlTakesEarnings)
+        meansofControlToLM.push(testDatum.meansOfControlThreatOfLawEnforcement)
+        meansofControlTM.push(testDatum.meansOfControlThreats)
+        meansofControlUCM.push(testDatum.meansOfControlUsesChildren)
+        recFamilyM.push(testDatum.recruiterRelationFamily)
+        recFriendM.push(testDatum.recruiterRelationFriend)
+        recRomancM.push(testDatum.recruiterRelationIntimatePartner)
+        recOtherM.push(testDatum.reacruiterRelationOther)
+
       }
       else {
         yearfemalearray.push(testDatum.yearOfRegistration);
         exploitfemale.push(testDatum.isSexualExploit);
+        meansofControlPAF.push(testDatum.meansOfControlPhysicalAbuse)
+        meansofControlPSF.push(testDatum.meansOfControlPsychoactiveSubstances)
+        meansofControlPsAF.push(testDatum.meansOfControlPsychologicalAbuse)
+        meansofControlRMF.push(testDatum.meansOfControlRestrictsMovement)
+        meansofControlSAF.push(testDatum.meansOfControlSexualAbuse)
+        meansofControlTEF.push(testDatum.meansOfControlTakesEarnings)
+        meansofControlToLF.push(testDatum.meansOfControlThreatOfLawEnforcement)
+        meansofControlTF.push(testDatum.meansOfControlThreats)
+        meansofControlUCF.push(testDatum.meansOfControlUsesChildren)
+        recFamilyF.push(testDatum.recruiterRelationFamily)
+        recFriendF.push(testDatum.recruiterRelationFriend)
+        recRomancF.push(testDatum.recruiterRelationIntimatePartner)
+        recOtherF.push(testDatum.reacruiterRelationOther)
       }
       console.log(exploitfemale)
-      bar.html("")
+      // bar.html("")
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
       let Female = {
         x: yearfemalearray,
-        y: exploitfemale,
+        y: meansofControlPAF,meansofControlPSF
         type: "bar",
         marker: {
           color: 'rgba(50,171,96,0.6)',
