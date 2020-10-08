@@ -8,7 +8,7 @@ import sys
 import requests
 import json
 import os
-app = Flask(__name__, static_folder='static')
+app = Flask(__name__, static_folder=os.path.abspath('/Project-2'))
 
 engine = create_engine(cxnstring, pool_recycle=3600)
 
