@@ -6,8 +6,8 @@ function optionChanged(){
 }
 function createBarbyGender(){
   let url = ["https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender"]
-  
-  d3.json(url,function(testData){
+  let url2 = ["/api/<year>/<gender>"]
+  d3.json(url2,function(testData){
       let yearfemalearray =[];
       let yearmalearray =[];
       let exploitmale = [];
@@ -22,6 +22,8 @@ function createBarbyGender(){
         yearfemalearray.push(testDatum.yearOfRegistration);
         exploitfemale.push(testDatum.isSexualExploit);
       }
+      console.log(exploitfemale)
+      bar.html("")
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
       let Female = {
