@@ -11,35 +11,6 @@ function createDonut() {
     // let y_select = d3.select('#selDataset_year').node().value[0];
     // let g_select = d3.select('#selDataset_gender').node().value[0];
     
-<<<<<<< HEAD
-    d3.json(queryUrl).then(data => {
-        // console.log(data)
-        var year = data.index(obj => obj.yearOfRegistration == y_select)[0];
-        var gender = year.gender;
-        var pie = d3.select('#pie');
-        pie.html("");
-
-        console.log(gender)
-        var partner = data.recruiterRelationIntimatePartner;
-        var friend = data.recruiterRelationFriend;
-        var family = data.recruiterRelationFamily;
-        var other = data.recruiterRelationOther;
-
-        var earnings = data.meansOfControlTakesEarnings;
-        var threats = data.meansOfControlThreats;
-        var psyabuse = data.meansOfControlPsychologicalAbuse;
-        var phyabuse = data.meansOfControlPhysicalAbuse;
-        var sexabuse = data.meansOfControlSexualAbuse;
-        var drugs = data.meansOfControlPsychoactiveSubstances;
-        var move = data.meansOfControlRestrictsMovement;
-        var children = data.meansOfControlUsesChildren;
-        var leo = data.meansOfControlThreatOfLawEnforcement;
-
-        var labour = data.isForcedLabour;
-        var sexex = data.isSexualExploit;
-        var otherex = data.isOtherExploit;
-        var abduction = data.isAbduction;
-=======
     d3.json(url,function(testData){
      
       let y_select = d3.select('#selDataset_year').node().value[0];
@@ -198,7 +169,6 @@ function createDonut() {
         sexexm.push(testDatum.isSexualExploit)
         otherexm.push(testDatum.isOtherExploit)
         abductionm.push(testDatum.isAbduction)
->>>>>>> ff084bc4494e0099764a19fdb01101ffc12c4ea2
 
         var data = [{
           values: [partnerm, friendm, familym, otherm],
