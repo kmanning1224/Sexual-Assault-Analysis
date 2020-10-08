@@ -81,7 +81,7 @@ function createBarbyGender(){
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
       let Female = {
-        x: yearselect,
+        x: exploitfemale,
         y: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
         meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF,
         mode: "markers",
@@ -89,7 +89,9 @@ function createBarbyGender(){
           size: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
           meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF,
           color: meansofControlPAF,meansofControlPSF,meansofControlPsAF,meansofControlRMF,meansofControlSAF,
-          meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF
+          meansofControlTEF,meansofControlToLF,meansofControlTF,meansofControlUCF,
+          sizeref: 0.2,
+          sizemode: 'area'
         },
         text : "Means of Control"
       };
