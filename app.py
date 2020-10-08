@@ -8,7 +8,7 @@ import sys
 import requests
 import json
 import os
-app = Flask(__name__)
+app = Flask(__name__, static_folder=os.path.abspath('C:/Users/katma/Documents/GitHub/Trilogoy/Homework/Project-2'))
 
 engine = create_engine(cxnstring, pool_recycle=3600)
 
@@ -58,10 +58,10 @@ def fulldb():
     response = pd.read_sql("SELECT * FROM all_totals_global", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
-@app.route('/static/<path:path>')
-def send_static(path):
-    return send_from_directory('static', path)
-
+@app.route('/static')
+def static():
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+                               'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 if __name__ == "__main__":
     app.run()
