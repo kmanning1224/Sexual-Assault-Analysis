@@ -11,7 +11,7 @@ function createDonut() {
     let y_select = d3.select('#selDataset_year').node().value[0];
     let g_select = d3.select('#selDataset_gender').node().value[0];
     
-    d3.json(queryUrl). then(data => {
+    d3.json(queryUrl).then(data => {
         // console.log(data)
         var year = data.index(obj => obj.yearOfRegistration == y_select)[0];
         var gender = year.gender;
