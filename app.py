@@ -60,10 +60,10 @@ def fulldb():
     response = pd.read_sql("SELECT * FROM all_totals_global", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
-@app.route('/static/<path:path>')
-def send_static(path):
-    return send_from_directory('static', path)
+# @app.route('/static/<path:path>')
+# def send_static(path):
+#     return send_from_directory('static', path)
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
