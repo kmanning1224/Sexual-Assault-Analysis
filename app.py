@@ -33,7 +33,7 @@ def geodata():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, 'static', 'us_trafficking_locations2.geojson')
     data = json.load(open(json_url))
-    return render_template("home.html", data=data)
+    return jsonify(data=data)
 
 
 @app.route("/api/<year>/<gender>")
