@@ -1,10 +1,14 @@
-function optionChanged(){
-  let drop_year = d3.select('#selDataset_year').node().value;
-  let drop_gender = d3.select('#selDataset_gender').node().value;
- createBarbyGender(drop_year,drop_gender);
-console.log(drop_year)
-}
+
+// function optionChanged(){
+//   let drop_year = d3.select('#selDataset_year').node().value;
+//   let drop_gender = d3.select('#selDataset_gender').node().value;
+//  createBarbyGender(drop_year,drop_gender);
+// console.log(drop_year)
+// }
+
+
 function createBarbyGender(){
+  console.log(createBarbyGender)
   let url = ["https://assaultdb.herokuapp.com/gender"]
   // let url2 = `/api/${year}/${gender}`
   d3.json(url,function(testData){
@@ -92,54 +96,55 @@ function createBarbyGender(){
       let drop_year = d3.select('#selDataset_year').node().value;
       let drop_gender = d3.select('#selDataset_gender').node().value;
       console.log(drop_gender)
+      console.log(drop_year)
       // console.log(yearfemalearray)
       // console.log(exploitfemale)
       // console.log(yearmalearray)
       // console.log(yearfemalearray)
       let PAFtrace = {
-        x: genderM,
+        x: drop_gender,
         y: meansofControlPAF,meansofControlPAM,
         name: 'Physical Abuse - Means of Control',
         type: 'bar'
       };
       let PStrace = {
-        x: genderF,genderM,
+        x: drop_gender,
         y:  meansofControlPSM, meansofControlPSF,
         name: 'Psychoactive Substances - Means of Control',
         type: 'bar'
       };
       let PsAtrace = {
-        x: genderF,genderM,
+        x: drop_gender,
         y: meansofControlPsAF, meansofControlPsAM,
         name:'Psychological Abuse - Means of Control',
         type: 'bar'
       }
       let RMtrace = {
-        x: genderF,genderM,
+        x: drop_gender,
         y: meansofControlRMF, meansofControlRMM,
         name : 'Restricts Movement - Means of Control',
         type: 'bar'
       }
       let SAtrace = {
-        x: genderF,genderM,
+        x: drop_gender,
         y: meansofControlSAF, meansofControlSAM,
         name: 'Sexual Abuse - Means of Control',
         type: 'bar'
       }
       let TEtrace = {
-        x: genderF,genderM,
+        x: drop_gender,
         y: meansofControlTEF, meansofControlTEM,
         name: 'Takes Earnings - Means of Control',
         type: 'bar'
       }
       let ToLtrace = {
-        x: genderF,genderM,
+        x: drop_gender,
         y: meansofControlToLF, meansofControlToLM,
         name: 'Threats of Law Enforcement - Means of Control',
         type: 'bar'
       }
       let Ttrace = {
-        x: genderF,genderM,
+        x: drop_gender,
         y: meansofControlTF, meansofControlTM,
         name:'Threats (General) - Means of Control',
         type: 'bar'
@@ -253,14 +258,14 @@ function createBarbySexualExploit(){
         x:yearfemalearray,
         y:exploitfemale,
         name: 'Sexual Exploits against Females',
-        type: 'scatter'
+        mode: 'markers'
 
       };
       let traceM = {
         x: yearmalearray,
         y: exploitmale,
         name: 'Sexual Exploits against Males',
-        type: 'scatter'
+        mode: 'markers'
       }
       let dataexploit = [traceF,traceM]
       let layout = {
@@ -281,10 +286,10 @@ function createBarbySexualExploit(){
   })
 }
 
-function changedSample() {
-  return d3.select('selDataset_year','selDatasetgender').on("change", createBarbySexualExploit, createBarbyGender)
-};
+
+d3.select('#selDataset_year').on("change", createBarbyGender) 
+
 createBarbyGender();
-createBarbySexualExploit()
+createBarbySexualExploit();
 // optionChanged();
-changedSample();
+// changedSample();
