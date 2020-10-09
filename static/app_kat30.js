@@ -1,10 +1,10 @@
 
-// function optionChanged(){
-//   let drop_year = d3.select('#selDataset_year').node().value;
-//   let drop_gender = d3.select('#selDataset_gender').node().value;
-//  createBarbyGender(drop_year,drop_gender);
-// console.log(drop_year)
-// }
+function optionChanged(){
+  let drop_year = d3.select('#selDataset_year').node().value;
+  let drop_gender = d3.select('#selDataset_gender').node().value;
+ createBarbyGender();
+console.log(drop_year)
+}
 
 
 function createBarbyGender(){
@@ -288,7 +288,9 @@ function createBarbySexualExploit(){
 
 
 d3.select('#selDataset_year').on("change", createBarbyGender) 
-
+d3.select('#selDataset_year').on("change", createBarbySexualExploit) 
+d3.select('#selDataset_gender').on("change", createBarbyGender) 
+d3.select('#selDataset_gender').on("change", createBarbySexualExploit) 
 createBarbyGender();
 createBarbySexualExploit();
 // optionChanged();

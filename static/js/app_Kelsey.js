@@ -1,5 +1,9 @@
-var map = L.map('map').setView([37.8, -96], 4);
-
+var map = L.map('map', {
+  container:"map",
+  center: [37.8, -96],
+  zoom: 5
+});
+// .setView([37.8, -96], 4);
 var geoData = "https://assaultdb.herokuapp.com/geodata"
 console.log(geoData)
 var geojson;

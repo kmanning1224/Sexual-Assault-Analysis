@@ -4,7 +4,7 @@ var geoData = "static/us_trafficking_locations2.geojson";
 
 var geojson;
 
-const API_KEY = "pk.eyJ1Ijoia2x3MTFqIiwiYSI6ImNrZmVqZXZwdjA1ZTMycWxtNzFleG1lNTMifQ.NLpMj8I-pGYMKI6Q4hZSfA";
+// const API_KEY = "pk.eyJ1Ijoia2x3MTFqIiwiYSI6ImNrZmVqZXZwdjA1ZTMycWxtNzFleG1lNTMifQ.NLpMj8I-pGYMKI6Q4hZSfA";
 
 
 d3.json(geoData, function(data) {

@@ -19,14 +19,14 @@ engine = create_engine(cxnstring, pool_recycle=3600)
 @app.route("/")
 def index():
     with engine.connect() as con:
-        #query result from sqlalchemy + postgres
-        # year = con.execute ("""SELECT DISTINCT (totals_gender."yearOfRegistration") FROM totals_gender;""")
-        # gender = con.execute (""" SELECT DISTINCT (totals_gender."gender")FROM totals_gender; """)
-        # #cleaning results, removing uneeded values from tuple i.e( (,))
-        # years = [y[0] for y in year]
-        # gender = [g[0] for g in gender]
+        # query result from sqlalchemy + postgres
+        year = con.execute ("""SELECT DISTINCT (totals_gender."yearOfRegistration") FROM totals_gender;""")
+        gender = con.execute (""" SELECT DISTINCT (totals_gender."gender")FROM totals_gender; """)
+        #cleaning results, removing uneeded values from tuple i.e( (,))
+        years = [y[0] for y in year]
+        gender = [g[0] for g in gender]
 
-        return render_template("home.html")
+        return render_template("home.html", years=years, gender=gender)
 
 @app.route("/geodata")
 def geodata():
