@@ -1,13 +1,13 @@
 var map = L.map('map').setView([37.8, -96], 4);
 
-var geoData = "/geodata"
+var geoData = "https://assaultdb.herokuapp.com/geodata"
 console.log(geoData)
 var geojson;
 
 const API_KEY = "pk.eyJ1Ijoia2x3MTFqIiwiYSI6ImNrZmVqZXZwdjA1ZTMycWxtNzFleG1lNTMifQ.NLpMj8I-pGYMKI6Q4hZSfA";
 
 
-d3.json(geoData, function(data_geo) {
+d3.json(geoData, function(data_geo){
   L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
   tileSize: 512,

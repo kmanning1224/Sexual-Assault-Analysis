@@ -3,6 +3,7 @@ function optionChanged(){
   let drop_gender = d3.select('#selDataset_gender').node().value;
 //  createBarbyGender(drop_year,drop_gender);
 createDonut();
+createBarbySexualExploit();
 console.log(drop_year)
 }
 // function createBarbyGender(){
@@ -293,7 +294,4 @@ function createBarbySexualExploit(){
 function changedSample() {
   return d3.select('selDataset_year','selDatasetgender').on("change", createBarbySexualExploit)
 };
-// createBarbyGender();
-createBarbySexualExploit()
-// optionChanged();
 changedSample();

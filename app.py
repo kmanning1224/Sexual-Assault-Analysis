@@ -36,15 +36,15 @@ def geodata():
     return jsonify(data=data)
 
 
-@app.route("/api/<year>/<gender>")
-def apitest(years,gender):
-    with engine.connect() as con:
-        gender = con.execute (""" SELECT DISTINCT (totals_gender."gender") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
-        year = con.execute (""" SELECT DISTINCT (totals_gender."year") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
-        gender = [g[0] for g in gender]
-        years = [y[0] for y in year]
+# @app.route("/test/<years>/<gender>")
+# def apitest(years,gender):
+#     with engine.connect() as con:
+#         gender = con.execute (""" SELECT DISTINCT (totals_gender."gender") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
+#         year = con.execute (""" SELECT DISTINCT (totals_gender."year") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
+#         gender = [g[0] for g in gender]
+#         years = [y[0] for y in year]
         
-    return render_template("home.html",years=years, gender=gender)
+#     return jsonify(years=years, gender=gender)
         
 @app.route("/fulldate")
 def psqltest():
@@ -60,6 +60,11 @@ def gender():
 def test():
     response = pd.read_sql("SELECT * FROM totals_gender", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
+
+@app.route("/gender2")
+def test2():
+    response = pd.read_sql("SELECT * FROM totals_gender", engine)
+    return jsonify(response)
 
 @app.route("/fulldb_og")
 def fulldb():
