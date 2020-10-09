@@ -232,7 +232,7 @@
   </header>
   
 <section>
-    <div id = "section1">
+  <div id = "section1">
     <div class="container">
       <div class="row align-items-center">
       
@@ -244,30 +244,13 @@
               They look for people who are susceptible for a variety of reasons, including psychological or emotional vulnerability, economic hardship, lack of a social safety net, natural disasters, or political instability. 
               The trauma caused by the traffickers can be so great that many may not identify themselves as victims or ask for help, even in highly public settings.</p>
             
-              <p> Human trafficking does not only involve kidnapping or physically forcing someone into a situation.In reality, most traffickers use psychological means such as, tricking, defrauding, manipulating or threatening victims into
+            <p> Human trafficking does not only involve kidnapping or physically forcing someone into a situation.In reality, most traffickers use psychological means such as, tricking, defrauding, manipulating or threatening victims into
                 providing commercial sex or exploitative labour. Many survivors have been trafficked by romatic partners, including spouses and by family memebers, including parents. 
-              </p>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
- 
-
-
-  <section>
-    <div class="container">
-        <div class="col-lg-12">
-          <div class="row align-items-center">
-          <div class="p-5">
-            <h2 class="display-4">Statistics</h2>
+            </p>  
+            <h2 class="display-4">Visualization</h2>
             <p>Sex trafficking is notoriously underreported. Our data shows the number of individuals trafficked by year and gender.</p>
-          </div>
-
           <div class="row">
-            <div class="col-md-12">
-              <h5>Selection:</h5>
+            <div class="col-md-2">
           <select class="custom-select" id="selDataset_year" onchange="optionChanged()">
           
           {%for y in years%}
@@ -275,7 +258,7 @@
             {% endfor %}
          
           </select></div></div><div class="row">
-            <div class="col-md-12"><br>
+            <div class="col-md-2"><br>
           <select class="custom-select" id="selDataset_gender" onchange="optionChanged()">
     
             {%for g in gender%}
@@ -299,10 +282,12 @@
             <div id="bubble"></div>
           </div>
         </div>
+        </div>        
       </div>
     </div>
-  </section>
+  </div>
 </section>
+
   <!-- Footer -->
   <footer class="py-5 bg-black">
     <div class="container">
