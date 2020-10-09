@@ -29,7 +29,6 @@
    font-family: 'Lato';
  }
  
- 
  h1,
  h2,
  h3,
@@ -61,7 +60,7 @@
    letter-spacing: 0.1rem;
  }
  
- .map { height: 180px; }
+ 
  .bg-black {
    background-color: #000 !important;
  }
@@ -258,11 +257,40 @@
 
 
   <section>
-    <div class="container">
-        <div class="col-lg-12">
+    <div class=" wrap container" role="document">
+      <div class= "content">
+        <div class="col-md-10 col-lg-8 mx-auto">
           <div class="row align-items-center">
+          <div data-block_5dade3253cf49 class="full-width bg-white section alignfull">
+            <div class="container">
+              <div class= "row">
+                <div class="col-lg-10 mx-auto">
+                  <p class ="lead" style="text-align: center;">
+                  <span style= "font-weight: 300;">
+                    "The U.S. Department of State estimates that 14,500 to 17,500 people are trafficked into the United States each year. 
+                     Traffickers use force, fraud, or coercion to lure their victims and force them into labor or commercial sexual exploitation. 
+                     They look for people who are susceptible for a variety of reasons, including psychological or emotional vulnerability, economic hardship, lack of a social safety net, natural disasters, or political instability. 
+                     The trauma caused by the traffickers can be so great that many may not identify themselves as victims or ask for help, even in highly public settings."
+                  </span>
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-block_5f6e577e8099d class= "full-width bg-light section alignfull">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-10 mx-auto">
+                  <h2 class="display-4">Our Data</h2>
+                  <p class ="lead" style= "text-align: center;">
+                  "Our data was plotted" 
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="p-5">
-            <h2 class="display-4">Our Data</h2>
+            
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
           </div>
 
@@ -285,9 +313,6 @@
             </select>
           </div>
         </div>
-        <div class="col-md-6">
-          <div id="map"></div>
-        </div>
           <div class="col-md-5">
             <div id="bar"></div>
           </div>
@@ -306,7 +331,8 @@
       </div>
     </div>
   </section>
-</section>
+</section>+
+
   <!-- Footer -->
   <footer class="py-5 bg-black">
     <div class="container">
@@ -321,17 +347,17 @@
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/queue.v1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-    crossorigin=""></script>
-    
-  <script src="{{ url_for('static', filename='/static/js/app_Kelsey.js')}}"></script> 
-  <script src="{{ url_for('static', filename='/static/js/choropleth.js')}}"></script>
-  <script src="{{ url_for('static', filename='/static/app_kat30.js')}}"></script>
+  <!-- <script src = "https://raw.githubusercontent.com/kmanning1224/Project-2/master/static/js/app_kat.js" crossorigin="anonymous"></script> -->
+
+  <script src="{{ url_for('static', filename='/static/app_kat29.js')}}"></script>
   <script src="{{ url_for('static', filename='static/js/appSAS4.js', _external=True) }}"></script>
+
+  <!-- <script src="{{ url_for('static', filename='static/js/app.js') }}"></script> -->
+
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-
+  <!-- <script src="/static/js/app_kat16.js"></script> -->
+  <!-- <script src="../static/js/appSAS.js"></script> -->
 </body>
 
 </html>
