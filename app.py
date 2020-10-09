@@ -16,6 +16,7 @@ engine = create_engine(cxnstring, pool_recycle=3600)
 
 
 # , pool_recycle=3600
+#main page
 @app.route("/")
 def index():
     with engine.connect() as con:
@@ -28,6 +29,7 @@ def index():
 
         return render_template("home.html", years=years, gender=gender)
 
+#route for geojson for mapping
 @app.route("/geodata")
 def geodata():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
@@ -35,46 +37,41 @@ def geodata():
     data = json.load(open(json_url))
     return jsonify(data=data)
 
-
-# @app.route("/test/<years>/<gender>")
-# def apitest(years,gender):
-#     with engine.connect() as con:
-#         gender = con.execute (""" SELECT DISTINCT (totals_gender."gender") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
-#         year = con.execute (""" SELECT DISTINCT (totals_gender."year") WHERE (totals_gender.yearOfRegistration") {year}, WHERE (totals_gender.gender) {gender} FROM totals_gender; """)
-#         gender = [g[0] for g in gender]
-#         years = [y[0] for y in year]
-        
-#     return jsonify(years=years, gender=gender)
-        
+#fulldatabase for plots        
 @app.route("/fulldate")
 def psqltest():
     response = pd.read_sql("SELECT * FROM assault_table_db", engine)
     return Response(response.to_json(orient="records", date_format="iso"), mimetype="application/json")
 
+#database for map
 @app.route("/assault_by_state")
 def gender():
     response = pd.read_sql("SELECT * FROM assault_per_state", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
+#database used
 @app.route("/gender")
 def test():
     response = pd.read_sql("SELECT * FROM totals_gender", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
-@app.route("/gender2")
-def test2():
-    response = pd.read_sql("SELECT * FROM totals_gender", engine)
-    return jsonify(response)
-
+# database orginal
 @app.route("/fulldb_og")
 def fulldb():
     response = pd.read_sql("SELECT * FROM all_totals_global", engine)
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
-
+# path for static file collection
 @app.route('/static/<path:path>')
 def send_static(path):
     return send_from_directory('static', path)
 
+@app.route('/data_collected')
+def datacollected():
+    return render_template("data_collected.html")
+
+@app.route('/about_project')
+def aboutproject():
+    return render_template("about_project.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
