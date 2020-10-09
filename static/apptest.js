@@ -6,8 +6,12 @@
             let array_data = [];
             for (let i=0; i<1; i++) {
                 array_data[i]={
-                    Gender: Data.gender
-                };
+                    Gender: Data.gender,
+                    Year: Data.yearOfRegistration,
+                    Sexual_Exploit_Count: Data.isSexualExploit,
+                    Physical_Abuse: Data.meansOfControlPhysicalAbuse,
+                    Psychoactive_Substances: 
+                }
                 console.log(array_data)
         
             }
