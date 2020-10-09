@@ -84,6 +84,7 @@ function createDonut() {
           labels: ['Recruited by Partner', 'Recruited by Friend', 'Recruited by Family', 'Recruited by Other'],
           domain: {column: 0},
           name: 'Recruiter Relation to Victim',
+          colorscale: 'YlGnBu',
           hoverinfo: 'label+percent',
           hole: .6,
           type: 'pie'
@@ -94,6 +95,7 @@ function createDonut() {
           textposition: 'inside',
           domain: {column: 1},
           name: 'Means of Control of Victim',
+          colorscale: 'YlGnBu',
           hoverinfo: 'label+percent',
           hole: .6,
           type: 'pie'
@@ -103,6 +105,7 @@ function createDonut() {
           // textposition: 'inside',
           domain: {column: 2},
           name: 'Method of Exploitation of Victim',
+          colorscale: 'YlGnBu',
           hoverinfo: 'label+percent',
           hole: .6,
           type: 'pie'
@@ -179,6 +182,7 @@ function createDonut() {
           labels: ['Recruited by Partner', 'Recruited by Friend', 'Recruited by Family', 'Recruited by Other'],
           domain: {column: 0},
           name: 'Recruiter Relation to Victim',
+          colorscale: 'YlGnBu',
           hoverinfo: 'label+percent',
           hole: .6,
           type: 'pie'
@@ -189,6 +193,7 @@ function createDonut() {
           textposition: 'inside',
           domain: {column: 1},
           name: 'Means of Control of Victim',
+          colorscale: 'YlGnBu',
           hoverinfo: 'label+percent',
           hole: .6,
           type: 'pie'
@@ -198,6 +203,7 @@ function createDonut() {
           // textposition: 'inside',
           domain: {column: 2},
           name: 'Method of Exploitation of Victim',
+          colorscale: 'YlGnBu',
           hoverinfo: 'label+percent',
           hole: .6,
           type: 'pie'
