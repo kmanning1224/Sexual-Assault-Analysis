@@ -1,11 +1,4 @@
-// function optionChanged(){
-//     let drop_year = d3.select('#selDataset_year').node().value[0];
-//     let drop_gender = d3.select('#selDataset_gender').node().value[0];
-//    createDonut(drop_year,drop_gender);
-//   }
-
 function createDonut() {
-    // var queryUrl = `https://cors-anywhere.herokuapp.com/https://assaultdb.herokuapp.com/gender/${yearSelect}/${genderSelect}`
     var queryUrl = `https://assaultdb.herokuapp.com/gender`
     let url = ["https://assaultdb.herokuapp.com/gender"]
     // let y_select = d3.select('#selDataset_year').node().value[0];
@@ -19,9 +12,6 @@ function createDonut() {
       // console.log(filter)
       let pie = d3.select('#pie')
       pie.html("");
-
-      //  let yearf = [];
-      //  let yearm = [];
 
        let partnerf = [];
        let partnerm = [];
@@ -61,12 +51,10 @@ function createDonut() {
        let abductionm = [];
 
        filter.map((testDatum) =>{
-        console.log(testDatum.gender)
-        console.log(g_select)
+        // console.log(testDatum.gender)
+        // console.log(g_select)
       if (testDatum.gender === "Female") {
-        console.log("female selected")
-        // let gender = testDatum.gender;
-        // yearf.push(testDatum.yearOfRegistration);
+        // console.log("female selected")
 
         partnerf.push(testDatum.recruiterRelationIntimatePartner);
         friendf.push(testDatum.recruiterRelationFriend);
@@ -74,7 +62,7 @@ function createDonut() {
         otherf.push(testDatum.recruiterRelationOther);
 
         earningsf.push(testDatum.meansOfControlTakesEarnings);
-        console.log(typeof testDatum.meansOfControlTakesEarnings)
+        // console.log(typeof testDatum.meansOfControlTakesEarnings)
         threatsf.push(testDatum.meansOfControlThreats);
         psyabusef.push(testDatum.meansOfControlPsychologicalAbuse);
         phyabusef.push(testDatum.meansOfControlPhysicalAbuse);
@@ -88,8 +76,8 @@ function createDonut() {
         sexexf.push(testDatum.isSexualExploit)
         otherexf.push(testDatum.isOtherExploit)
         abductionf.push(testDatum.isAbduction)
-        console.log(`${earningsf}, ${threatsf}, ${psyabusef}, ${phyabusef}, ${sexabusef}, ${drugsf}, ${movef}, ${childrenf}, ${leof}`)
-        console.log(`${labourf}, ${sexexf}, ${otherexf}, ${abductionf}`)
+        // console.log(`${earningsf}, ${threatsf}, ${psyabusef}, ${phyabusef}, ${sexabusef}, ${drugsf}, ${movef}, ${childrenf}, ${leof}`)
+        // console.log(`${labourf}, ${sexexf}, ${otherexf}, ${abductionf}`)
 
         var data = [{
           values: [partnerf[0], friendf[0], familyf[0], otherf[0]],
