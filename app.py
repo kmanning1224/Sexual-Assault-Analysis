@@ -56,10 +56,9 @@ def test():
     return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
 
 # database orginal
-@app.route("/fulldb_og")
-def fulldb():
-    response = pd.read_sql("SELECT * FROM all_totals_global", engine)
-    return Response(response.to_json(orient = "records", date_format="iso"), mimetype="application/json")
+@app.route('/data_collected')
+def datacollected():
+    return render_template("data_collected.html")
 # path for static file collection
 @app.route('/static/<path:path>')
 def send_static(path):
@@ -69,9 +68,7 @@ def send_static(path):
 def aboutproject():
     return render_template("about_project.html")
 
-@app.route('/data_collected')
-def datacollected():
-    return render_template("data_collected.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
