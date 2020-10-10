@@ -83,6 +83,9 @@ function createDonut() {
           values: [partnerf[0], friendf[0], familyf[0], otherf[0]],
           labels: ['Recruited by Partner', 'Recruited by Friend', 'Recruited by Family', 'Recruited by Other'],
           domain: {column: 0},
+          marker: {
+            colors: ['#eff3ff','#bdd7e7','#6baed6','#2171b5'],
+          },
           name: 'Recruiter Relation to Victim',
           hoverinfo: 'label+percent',
           hole: .6,
@@ -93,6 +96,9 @@ function createDonut() {
           labels: ['Controlled by Earnings', 'Controlled by Threats', 'Controlled by Psychological Abuse', 'Controlled by Physical Abuse', 'Controlled by Sexual Abuse', 'Controlled by Psychoactive Substances', 'Controlled by Restrictive Movement', 'Controlled by Use of Children', 'Controlled by Threats of Law Enforcement'],
           textposition: 'inside',
           domain: {column: 1},
+          marker: {
+            colors: ['#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'],
+          },
           name: 'Means of Control of Victim',
           hoverinfo: 'label+percent',
           hole: .6,
@@ -102,6 +108,9 @@ function createDonut() {
           labels: ['Exploited by Forced Labour', 'Exploited by Sexual Exploitation', 'Exploited by Other Method', 'Exploited by Abduction'],
           // textposition: 'inside',
           domain: {column: 2},
+          marker: {
+            colors: ['#eff3ff','#bdd7e7','#6baed6','#2171b5'],
+          },
           name: 'Method of Exploitation of Victim',
           hoverinfo: 'label+percent',
           hole: .6,
@@ -109,7 +118,6 @@ function createDonut() {
         }];
 
         var layout = {
-          colorway: 'YlGnBu',
           title: `${g_select} Victim Statistics for ${y_select}`,
           annotations: [
             {
@@ -179,6 +187,9 @@ function createDonut() {
           values: [partnerm[0], friendm[0], familym[0], otherm[0]],
           labels: ['Recruited by Partner', 'Recruited by Friend', 'Recruited by Family', 'Recruited by Other'],
           domain: {column: 0},
+          marker: {
+            colors: ['#eff3ff','#bdd7e7','#6baed6','#2171b5'],
+          },
           name: 'Recruiter Relation to Victim',
           hoverinfo: 'label+percent',
           hole: .6,
@@ -189,6 +200,9 @@ function createDonut() {
           labels: ['Controlled by Earnings', 'Controlled by Threats', 'Controlled by Psychological Abuse', 'Controlled by Physical Abuse', 'Controlled by Sexual Abuse', 'Controlled by Psychoactive Substances', 'Controlled by Restrictive Movement', 'Controlled by Use of Children', 'Controlled by Threats of Law Enforcement'],
           textposition: 'inside',
           domain: {column: 1},
+          marker: {
+            colors: ['#f7fbff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b'],
+          },
           name: 'Means of Control of Victim',
           hoverinfo: 'label+percent',
           hole: .6,
@@ -198,13 +212,15 @@ function createDonut() {
           labels: ['Exploited by Forced Labour', 'Exploited by Sexual Exploitation', 'Exploited by Other Method', 'Exploited by Abduction'],
           // textposition: 'inside',
           domain: {column: 2},
+          marker: {
+            colors: ['#eff3ff','#bdd7e7','#6baed6','#2171b5'],
+          },
           name: 'Method of Exploitation of Victim',
           hoverinfo: 'label+percent',
           hole: .6,
           type: 'pie'
         }];
         var layout = {
-          colorway: 'YlGnBu',
           title: `${g_select} Victim Statistics for ${y_select}`,
           annotations: [
             {
