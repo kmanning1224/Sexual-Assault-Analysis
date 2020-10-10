@@ -21,8 +21,8 @@ engine = create_engine(cxnstring, pool_recycle=3600)
 def index():
     with engine.connect() as con:
         # query result from sqlalchemy + postgres
-        year = con.execute ("""SELECT DISTINCT (totals_gender."yearOfRegistration") FROM totals_gender;""")
-        gender = con.execute (""" SELECT DISTINCT (totals_gender."gender")FROM totals_gender; """)
+        year = con.execute ("""SELECT DISTINCT (totals_gender."yearOfRegistration") FROM totals_gender ORDER BY (totals_gender."yearOfRegistration") ;""")
+        gender = con.execute (""" SELECT DISTINCT (totals_gender."gender")FROM totals_gender ORDER BY (totals_gender."gender"); """)
         #cleaning results, removing uneeded values from tuple i.e( (,))
         years = [y[0] for y in year]
         gender = [g[0] for g in gender]
