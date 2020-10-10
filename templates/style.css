@@ -12,7 +12,15 @@ body {
 .body-container {
   display: table;
 }
-
+.container-test {
+  display: grid;
+  grid-template-columns: 7fr 200px;
+  grid-template-rows: 8fr 300px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-items: stretch;
+}
 .side-container {
   float: none;
   display: table-cell;

@@ -193,13 +193,13 @@ function createBarbySexualExploit() {
           PAFtrace2, PStrace2, PsAtrace2, RMtrace2, SAtrace2, TEtrace2, ToLtrace2, Ttrace2]
         let layout = {
           // barmode: 'stack',
-          colorway : ['#f3cec9', '#e7a4b6', '#cd7eaf', '#a262a9', '#6f4d96', '#3d3b72', '#182844'],
+          colorway: ['#f7fbff', '#deebf7', '#c6dbef', '#9ecae1', '#6baed6', '#4292c6', '#2171b5', '#08519c', '#08306b'],
           title: `Types of Control for ${g_select} in ${y_select}`,
-          font:{
+          font: {
             family: 'Raleway, sans-serif'
           },
           showlegend: true,
-          legend:{
+          legend: {
             x: 1,
             y: 0.5
           },
@@ -207,7 +207,7 @@ function createBarbySexualExploit() {
             zeroline: false,
             gridwidth: 2
           },
-          bargap :0.2,
+          bargap: 0.2,
           width: 700,
           height: 600
         };
@@ -348,48 +348,52 @@ function createBarbySexualExploit() {
           PAFtrace2, PStrace2, PsAtrace2, RMtrace2, SAtrace2, TEtrace2, ToLtrace2, Ttrace2]
         let layout = {
           // barmode: 'stack',
-          colorway : ['#f3cec9', '#e7a4b6', '#cd7eaf', '#a262a9', '#6f4d96', '#3d3b72', '#182844'],
-          title: `Types of Control for ${g_select} in ${y_select}`,
-          font:{
+          colorway: ['#f7fbff', '#deebf7', '#c6dbef', '#9ecae1', '#6baed6', '#4292c6', '#2171b5', '#08519c', '#08306b'],
+          title: `# of Control-Types for ${g_select} in ${y_select}`,
+          font: {
             family: 'Raleway, sans-serif'
           },
           showlegend: true,
-          legend:{
-            x: 1,
-            y: 0.5
+          legend: {"orientation": "h"},
+          margin: {
+            l: 125,
+            r: 5,
+            b: 30,
+            t: 30,
+            pad: 0,
           },
           yaxis: {
             zeroline: false,
             gridwidth: 2
           },
-          bargap :0.2,
-          width: 700,
-          height: 600
+          bargap: 0.2,
+          width: 600,
+          height: 400
         };
         Plotly.newPlot("bar2", data, layout)
       }
     })
   })
 }
-function createBarbySexualExploit2(){
+function createBarbySexualExploit2() {
   let url = ["https://assaultdb.herokuapp.com/gender"]
   // let url2 = `/api/${year}/${gender}`
-  d3.json(url,function(testData){
+  d3.json(url, function (testData) {
     // console.log(testData)
     let bar2 = d3.select('#bar2')
     bar2.html("");
     // let yeartest = yearid.filter(i = i.obj === yearselect)[0];
     // console.log(test)
-      let genderM = [];
-      let yearfemalearray =[];
-      let yearmalearray =[];
-      let exploitmale = [];
-      let exploitfemale=[];
-      let genderF = [];
- 
-      testData.map((testDatum) =>{
-        // console.log(testDatum)
-      if (testDatum.gender === "Male"){
+    let genderM = [];
+    let yearfemalearray = [];
+    let yearmalearray = [];
+    let exploitmale = [];
+    let exploitfemale = [];
+    let genderF = [];
+
+    testData.map((testDatum) => {
+      // console.log(testDatum)
+      if (testDatum.gender === "Male") {
         genderM.push(testDatum.gender);
         yearmalearray.push(testDatum.yearOfRegistration);
         exploitmale.push(testDatum.isSexualExploit);
@@ -401,8 +405,8 @@ function createBarbySexualExploit2(){
         exploitfemale.push(testDatum.isSexualExploit);
       }
       let traceF = {
-        x:yearfemalearray,
-        y:exploitfemale,
+        x: yearfemalearray,
+        y: exploitfemale,
         name: 'Sexual Exploits against Females',
         mode: 'lines'
 
@@ -413,22 +417,22 @@ function createBarbySexualExploit2(){
         name: 'Sexual Exploits against Males',
         mode: 'lines'
       }
-      let dataexploit = [traceF,traceM]
+      let dataexploit = [traceF, traceM]
       let layout = {
         title: '# of Sexual Exploitation accounts Male & Female',
-        colorway : ['#f3cec9', '#e7a4b6', '#cd7eaf', '#a262a9', '#6f4d96', '#3d3b72', '#182844'],
-        xaxis:{
+        colorway: ['#08519c', '#08306b'],
+        xaxis: {
           title: "Exploitation 2015 - 2018"
         },
         showlegend: true,
-          legend: {
-            x: 1,
-            y: 0.5
-          },
-        width: 800,
+        legend: {
+          x: 1,
+          y: 0.5
+        },
+        width: 600,
         height: 300
       };
-      Plotly.newPlot("bar",dataexploit, layout)
+      Plotly.newPlot("bar", dataexploit, layout)
     })
   })
 }
