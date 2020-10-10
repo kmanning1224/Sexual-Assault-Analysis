@@ -367,7 +367,7 @@ function createBarbySexualExploit() {
             gridwidth: 2
           },
           bargap: 0.2,
-          width: 600,
+          width: 500,
           height: 400
         };
         Plotly.newPlot("bar2", data, layout)
