@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -54,7 +54,7 @@
       <div class="masthead-content">
         <div class="container">
           <h1 class="masthead-heading mb-0">
-            <h6 class="display-4">Sex Trafficking in the US</h6>
+            <h6 class="line-1 anim-typewriter">Sex Trafficking in the US</h6>
             <h6 class="masthead-subheading mb-0">Project by Chika Ozodiegwu, Kelsey Wyatt, Sofia Sotillo, and Katherine
               Manning</h6><br><br>
         </div>
@@ -177,8 +177,21 @@
 
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-    
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script>anime.timeline({loop: true})
+  .add({
+    targets: '.ml16 .letter',
+    translateY: [-100,0],
+    easing: "easeOutExpo",
+    duration: 1400,
+    delay: (el, i) => 30 * i
+  }).add({
+    targets: '.ml16',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });</script>
     
 </body>
 
