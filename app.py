@@ -65,13 +65,13 @@ def fulldb():
 def send_static(path):
     return send_from_directory('static', path)
 
-@app.route('/data_collected')
-def datacollected():
-    return render_template("data_collected.html")
-
 @app.route('/about_project')
 def aboutproject():
     return render_template("about_project.html")
+
+@app.route('/data_collected')
+def datacollected():
+    return render_template("data_collected.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
